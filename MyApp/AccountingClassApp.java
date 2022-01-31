@@ -64,6 +64,8 @@ public class AccountingClassApp {
 		a2.print();
 		
 		a1.print();
+		
+		
 	}
 
 	
