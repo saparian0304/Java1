@@ -19,10 +19,17 @@ public class Read_Txt {
 		String line = null;
 		while ((line = br.readLine()) != null) {
 	        System.out.printf(line + "%n");
-			scanner.nextLine();
+	        String inputTxt = scanner.nextLine();
+	        
+	        // 입력값이 맞았는지 확인
+	        while (line.equals(inputTxt) == false) {
+	        	System.out.println("틀렸습니다.");
+	        	System.out.println(line);
+	        	inputTxt = scanner.nextLine();
+	        	continue;
+	        }
 	    }
 		
-
 	}
 
 }
