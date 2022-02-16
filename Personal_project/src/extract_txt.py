@@ -13,20 +13,26 @@ while i < 50 :
 # 장별로 나누기
 import re
 f = open('Personal_project/Gen.txt', 'r')
-chapter = 1
+chapter = 40
 
 i = 1
-print(str(i)+"장")
-while i < (chapter + 1) :
+
+while i < (chapter+2) :
     
     c = format(i, '02')
     readF = f.readline()
-    if readF[1:3] == str(c):
-        results = re.sub('^창'+str(c)+':\d+' + ' ',"",readF)
-        print(results)
+    if readF[4:6] == "01":
+        if  i == chapter+1 :
+            break
+        else:
+            print(str(i)+"장")
+            results = re.sub('^창'+str(c)+':\d+'+' ',"",readF)
+            print(results)
+            i += 1
        
     else:
-        i += 1
-        print(str(i)+"장")
+        results = re.sub('^창'+format(i-1,'02')+':\d+' + ' ',"",readF)
+        print(results)
+
         continue
         
