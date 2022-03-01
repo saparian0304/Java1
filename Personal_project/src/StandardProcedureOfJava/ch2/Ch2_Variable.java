@@ -1,4 +1,4 @@
-package StandardProcedureOfJava;
+package StandardProcedureOfJava.ch2;
 
 public class Ch2_Variable {
 
