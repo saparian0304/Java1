@@ -19,13 +19,26 @@ for k in range(39):
         
         results = re.sub('^{0}'.format(ap_list[k])+num_chap+':\d+'+' ',"",readF)
         
-        if readF[1:3] == num_chap:
+        # 1~99장일 경우
+        if readF[1:3] == num_chap or readF[2:4] == num_chap:
             write_f = open('Personal_project/bible/{0}_{1}{2}.txt'.format(list_oldBible[k], num_chap,"장"), 'w')
 
-            print(str(i)+"장")
+            # print(str(i)+"장")
             
-        while readF[1:3] == num_chap:
-            print(results)
+        while readF[1:3] == num_chap or readF[2:4] == num_chap:
+            # print(results)
+            write_f.write(results)
+            readF = f.readline()
+            results = re.sub('^{0}'.format(ap_list[k])+num_chap+':\d+'+' ',"",readF)
+            
+        # 100장 이상일 경우
+        if readF[1:4] == num_chap:
+            write_f = open('Personal_project/bible/{0}_{1}{2}.txt'.format(list_oldBible[k], num_chap,"장"), 'w')
+
+            # print(str(i)+"장")
+            
+        while readF[1:4] == num_chap:
+            # print(results)
             write_f.write(results)
             readF = f.readline()
             results = re.sub('^{0}'.format(ap_list[k])+num_chap+':\d+'+' ',"",readF)
