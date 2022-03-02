@@ -18,14 +18,21 @@ public class Read_Txt {
 
 		String line = null;
 		while ((line = br.readLine()) != null) {
+			String name = "출";
+			int chapter = 1;
+			String s_chap = Integer.toString(chapter);
 			
-	        System.out.printf(line.substring(5) + "%n");
+			while (line.substring(0,name.length()+s_chap.length()).equals(name+Integer.toString(chapter))==false)
+			{
+				line = br.readLine();}
+			
+	        System.out.printf(line.substring(name.length()+s_chap.length()+3) + "%n");
 	        String inputTxt = scanner.nextLine();
 			
 	        // 입력값이 맞았는지 확인
 	        while (line.substring(5).equals(inputTxt) == false) {
 	        	System.out.println("틀렸습니다.");
-	        	System.out.println(line);
+	        	System.out.printf(line.substring(name.length()+s_chap.length()+3) + "%n");
 	        	inputTxt = scanner.nextLine();
 	        	continue;
 	        }
