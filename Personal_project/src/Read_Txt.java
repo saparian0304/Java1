@@ -15,28 +15,37 @@ public class Read_Txt {
 		
 		// txt 파일을 읽는데 사용할 클래스
 		BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(file),"EUC_KR"));
-
+		int verse = 1;
+		String name = scanner.nextLine();
+		int chapter = scanner.nextInt();
+		
+		
 		String line = null;
 		while ((line = br.readLine()) != null) {
-			String name = "출";
-			int chapter = 1;
+
+			
 			String s_chap = Integer.toString(chapter);
+			String s_verse = Integer.toString(verse);
 			
 			while (line.substring(0,name.length()+s_chap.length()).equals(name+Integer.toString(chapter))==false)
 			{
 				line = br.readLine();}
 			
-	        System.out.printf(line.substring(name.length()+s_chap.length()+3) + "%n");
+	        System.out.printf(line.substring(name.length()+s_chap.length()+ s_verse.length() + 2) + "%n");
 	        String inputTxt = scanner.nextLine();
 			
 	        // 입력값이 맞았는지 확인
-	        while (line.substring(5).equals(inputTxt) == false) {
+	        while (line.substring(name.length()+s_chap.length()+s_verse.length() + 2).equals(inputTxt) == false) {
 	        	System.out.println("틀렸습니다.");
-	        	System.out.printf(line.substring(name.length()+s_chap.length()+3) + "%n");
+	        	System.out.printf(line.substring(name.length()+s_chap.length()+s_verse.length() + 2) + "%n");
 	        	inputTxt = scanner.nextLine();
 	        	continue;
 	        }
+	        verse = verse + 1;
+	        
 	    }
+		br.close();
+		scanner.close();
 		
 	}
 
