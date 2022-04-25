@@ -1,4 +1,4 @@
-package StandardProcedureOfJava.ch4;
+ï»¿package StandardProcedureOfJava.ch4;
 
 public class ch4_FlowEx23 {
 
@@ -8,5 +8,5 @@ public class ch4_FlowEx23 {
 		while(i--!=0) {
 			System.out.println(i + " - I can do it.");
 		}
-	}	//mainÀÇ ³¡
+	}	//mainì˜ ë
 }

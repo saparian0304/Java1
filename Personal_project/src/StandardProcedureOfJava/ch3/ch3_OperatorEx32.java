@@ -1,7 +1,7 @@
-package StandardProcedureOfJava.ch3;
+ï»¿package StandardProcedureOfJava.ch3;
 
 public class ch3_OperatorEx32 {
-	// Á¶°Ç¿¬»êÀÚ ?:
+	// ì¡°ê±´ì—°ì‚°ìž ?:
 	public static void main(String[] args) {
 		int x, y, z;
 		int absX, absY, absZ;
@@ -11,11 +11,11 @@ public class ch3_OperatorEx32 {
 		y = -5;
 		z = 0;
 		
-		absX = x >= 0 ? x : -x;	// xÀÇ °ªÀÌ À½¼öÀÌ¸é, ¾ç¼ö·Î ¸¸µç´Ù.
+		absX = x >= 0 ? x : -x;	// xì˜ ê°’ì´ ìŒìˆ˜ì´ë©´, ì–‘ìˆ˜ë¡œ ë§Œë“ ë‹¤.
 		absY = y >= 0 ? y : -y;
 		absZ = z >= 0 ? z : -z;
 		
-		signX = x > 0 ? '+' : ( x==0 ? ' ' : '-');	// signX = xÀÇ ºÎÈ£
+		signX = x > 0 ? '+' : ( x==0 ? ' ' : '-');	// signX = xì˜ ë¶€í˜¸
 		signY = y > 0 ? '+' : ( y==0 ? ' ' : '-');
 		signZ = z > 0 ? '+' : ( z==0 ? ' ' : '-');
 		

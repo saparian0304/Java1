@@ -1,8 +1,8 @@
-package StandardProcedureOfJava.ch3;
+ï»¿package StandardProcedureOfJava.ch3;
 
 public class ch3_OperatorEx27 {
 
-// ³í¸® ºÎÁ¤ ¿¬»êÀÚ "!"
+// ë…¼ë¦¬ ë¶€ì • ì—°ì‚°ì "!"
 	public static void main(String[] args) {
 		boolean b = true;
 		char ch = 'C';
@@ -22,7 +22,7 @@ public class ch3_OperatorEx27 {
 }
 
 /*
-¿¬»ê ¼ø¼­ : ÇÇ¿¬»êÀÚ¿Í °¡±î¿î °ÍºÎÅÍ ¿¬»êÀÌ µÈ´Ù.
+ì—°ì‚° ìˆœì„œ : í”¼ì—°ì‚°ìì™€ ê°€ê¹Œìš´ ê²ƒë¶€í„° ì—°ì‚°ì´ ëœë‹¤.
 !!b 
 !!true
 !false

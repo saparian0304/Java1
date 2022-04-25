@@ -1,24 +1,24 @@
-import java.util.Scanner;
+ï»¿import java.util.Scanner;
 
 public class pr_Input {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-//		System.out.printf("Á¤¼ö ÀÔ·Â : ");
+//		System.out.printf("ì •ìˆ˜ ì…ë ¥ : ");
 //		int data_Int = sc.nextInt();
-//		System.out.println("Ãâ·Â(int) : " + data_Int);
+//		System.out.println("ì¶œë ¥(int) : " + data_Int);
 //
-//		System.out.printf("½Ç¼ö ÀÔ·Â : ");
+//		System.out.printf("ì‹¤ìˆ˜ ì…ë ¥ : ");
 //		double data_double = sc.nextDouble();
-//		System.out.println("Ãâ·Â(double) : " + data_double);
+//		System.out.println("ì¶œë ¥(double) : " + data_double);
 		
-		System.out.printf("¹®ÀÚ ÀÔ·Â(Line) : ");
+		System.out.printf("ë¬¸ì ì…ë ¥(Line) : ");
 		String data_Strline = sc.nextLine();
-		System.out.println("Ãâ·Â(Str) : " + data_Strline);
+		System.out.println("ì¶œë ¥(Str) : " + data_Strline);
 		
-//		System.out.printf("¹®ÀÚ ÀÔ·Â : ");
-//		String data_Str = sc.next();  // ¶ç¾î¾²±âÇÏ¸é ÀÌÈÄ¹®ÀÚ´Â Ãâ·ÂÀÌ ¾ÈµÊ
-//		System.out.println("Ãâ·Â(Str) : " + data_Str);
+//		System.out.printf("ë¬¸ì ì…ë ¥ : ");
+//		String data_Str = sc.next();  // ë„ì–´ì“°ê¸°í•˜ë©´ ì´í›„ë¬¸ìëŠ” ì¶œë ¥ì´ ì•ˆë¨
+//		System.out.println("ì¶œë ¥(Str) : " + data_Str);
 		
 		
 	}

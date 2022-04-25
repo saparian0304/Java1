@@ -1,4 +1,4 @@
-package StandardProcedureOfJava.ch4;
+ï»¿package StandardProcedureOfJava.ch4;
 
 public class ch4_FlowEx14 {
 
@@ -6,5 +6,5 @@ public class ch4_FlowEx14 {
 		for(int i=1, j=10;i<=10;i++,j--)
 			System.out.printf("%d \t %d%n", i, j);
 
-	}	// mainÀÇ ³¡
+	}	// mainì˜ ë
 }

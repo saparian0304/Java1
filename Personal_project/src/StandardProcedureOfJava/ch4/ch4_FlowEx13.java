@@ -1,15 +1,15 @@
-package StandardProcedureOfJava.ch4;
+ï»¿package StandardProcedureOfJava.ch4;
 
 public class ch4_FlowEx13 {
 
 	public static void main(String[] args) {
-		int sum = 0;	// ÇÕ°è¸¦ ÀúÀåÇÏ±â À§ÇÑ º¯¼ö.
+		int sum = 0;	// í•©ê³„ë¥¼ ì €ìž¥í•˜ê¸° ìœ„í•œ ë³€ìˆ˜.
 		
 		for(int i=1; i <= 10; i++) {
 			sum += i ;	// sum = sum + i;
-			System.out.printf("1ºÎÅÍ %2d ±îÁöÀÇ ÇÕ: %2d%n", i, sum);
+			System.out.printf("1ë¶€í„° %2d ê¹Œì§€ì˜ í•©: %2d%n", i, sum);
 		}
-	}	// mainÀÇ ³¡
+	}	// mainì˜ ë
 }
 
-// "%d" »çÀÌ¿¡ ¼ýÀÚ¸¦ ³ÖÀ¸¸é ÀÚ¸´¼ö¸¦ ¼³Á¤ÇÒ ¼ö ÀÖÀ½ 
+// "%d" ì‚¬ì´ì— ìˆ«ìžë¥¼ ë„£ìœ¼ë©´ ìžë¦¿ìˆ˜ë¥¼ ì„¤ì •í•  ìˆ˜ ìžˆìŒ 

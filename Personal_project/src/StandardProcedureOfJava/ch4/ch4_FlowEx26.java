@@ -1,4 +1,4 @@
-package StandardProcedureOfJava.ch4;
+ï»¿package StandardProcedureOfJava.ch4;
 
 public class ch4_FlowEx26 {
 
@@ -6,9 +6,9 @@ public class ch4_FlowEx26 {
 		int sum = 0;
 		int i	= 0;
 		
-		// i¸¦ 1¾¿ Áõ°¡½ÃÄÑ¼­ sum¿¡ °è¼Ó ´õÇØ³ª°£´Ù.
+		// ië¥¼ 1ì”© ì¦ê°€ì‹œì¼œì„œ sumì— ê³„ì† ë”í•´ë‚˜ê°„ë‹¤.
 		while((sum += ++i) <= 100) {
 			System.out.printf("%d - %d%n", i, sum);
 		}
-	}	// mainÀÇ ³¡
+	}	// mainì˜ ë
 }

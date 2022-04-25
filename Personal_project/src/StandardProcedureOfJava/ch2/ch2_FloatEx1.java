@@ -1,4 +1,4 @@
-package StandardProcedureOfJava.ch2;
+﻿package StandardProcedureOfJava.ch2;
 
 public class ch2_FloatEx1 {
 

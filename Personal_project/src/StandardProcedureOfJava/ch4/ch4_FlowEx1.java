@@ -1,10 +1,10 @@
-package StandardProcedureOfJava.ch4;
+ï»¿package StandardProcedureOfJava.ch4;
 
 public class ch4_FlowEx1 {
 
 	public static void main(String[] args) {
 		int x = 0;
-		System.out.printf("x=%d ÀÏ ¶§, ÂüÀÎ °ÍÀº %n", x);
+		System.out.printf("x=%d ì¼ ë•Œ, ì°¸ì¸ ê²ƒì€ %n", x);
 		
 		if(x==0) System.out.println("x==0");
 		if(x!=0) System.out.println("x!=0");
@@ -12,7 +12,7 @@ public class ch4_FlowEx1 {
 		if(!(x!=0)) System.out.println("!(x!=0)");
 		
 		x = 1;
-		System.out.printf("x=%dÀÏ ¶§, ÂüÀÎ °ÍÀº %n", x);
+		System.out.printf("x=%dì¼ ë•Œ, ì°¸ì¸ ê²ƒì€ %n", x);
 		if(x==0) System.out.println("x==0");
 		if(x!=0) System.out.println("x!=0");
 		if(!(x==0)) System.out.println("!(x==0)");
@@ -21,6 +21,6 @@ public class ch4_FlowEx1 {
 	}
 }
 
-// if (Á¶°Ç½Ä) {} : Á¶°Ç½ÄÀÇ °á°ú´Â Ç×»ó true ¾Æ´Ï¸é false¿©¾ß ÇÑ´Ù.
-// Á¶°Ç½ÄÀÌ trueÀÌ¸é {} ¾ÈÀÇ ¹®ÀåµéÀ» ¼öÇàÇÏ¶ó
-// Á¶°Ç½ÄÀÌ falseÀÌ¸é {} ¾ÈÀÇ ¹®ÀåÀº °Ç³Ê¶Ù¾îÁø´Ù.
+// if (ì¡°ê±´ì‹) {} : ì¡°ê±´ì‹ì˜ ê²°ê³¼ëŠ” í•­ìƒ true ì•„ë‹ˆë©´ falseì—¬ì•¼ í•œë‹¤.
+// ì¡°ê±´ì‹ì´ trueì´ë©´ {} ì•ˆì˜ ë¬¸ì¥ë“¤ì„ ìˆ˜í–‰í•˜ë¼
+// ì¡°ê±´ì‹ì´ falseì´ë©´ {} ì•ˆì˜ ë¬¸ì¥ì€ ê±´ë„ˆë›°ì–´ì§„ë‹¤.

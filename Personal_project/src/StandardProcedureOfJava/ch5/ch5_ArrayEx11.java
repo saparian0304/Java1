@@ -1,4 +1,4 @@
-package StandardProcedureOfJava.ch5;
+ï»¿package StandardProcedureOfJava.ch5;
 
 public class ch5_ArrayEx11 {
 
@@ -17,7 +17,7 @@ public class ch5_ArrayEx11 {
 		}
 
 		for (int i=0; i < numArr.length; i++) {
-			System.out.println(i +"ÀÇ °³¼ö :"+counter[i]);
+			System.out.println(i +"ì˜ ê°œìˆ˜ :"+counter[i]);
 		}
-	}	// mainÀÇ ³¡
+	}	// mainì˜ ë
 }

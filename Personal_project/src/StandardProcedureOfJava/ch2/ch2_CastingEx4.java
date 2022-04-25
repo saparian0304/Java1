@@ -1,14 +1,14 @@
-package StandardProcedureOfJava.ch2;
+ï»¿package StandardProcedureOfJava.ch2;
 
 public class ch2_CastingEx4 {
 
 	public static void main(String[] args) {
-		int		i 	= 91234567;		// 8ÀÚ¸®ÀÇ 10Áø¼ö
-		float	f 	= (float)i;		// int¸¦ float·Î Çüº¯È¯
+		int		i 	= 91234567;		// 8ìë¦¬ì˜ 10ì§„ìˆ˜
+		float	f 	= (float)i;		// intë¥¼ floatë¡œ í˜•ë³€í™˜
 		int		i2	= (int)f;
 
-		double	 d	= (double)i;	// int¸¦ double·Î Çüº¯È¯
-		int		i3 	= (int)d;		// double¸¦ ´Ù½Ã int·Î Çüº¯È¯
+		double	 d	= (double)i;	// intë¥¼ doubleë¡œ í˜•ë³€í™˜
+		int		i3 	= (int)d;		// doubleë¥¼ ë‹¤ì‹œ intë¡œ í˜•ë³€í™˜
 		
 		float 	f2	= 1.666f;
 		int		i4	= (int)f2;

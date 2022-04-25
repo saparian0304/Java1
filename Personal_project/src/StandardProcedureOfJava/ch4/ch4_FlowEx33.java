@@ -1,10 +1,10 @@
-package StandardProcedureOfJava.ch4;
+ï»¿package StandardProcedureOfJava.ch4;
 
 public class ch4_FlowEx33 {
-	// ÀÌ¸§ ºÙÀº ¹İº¹¹®
+	// ì´ë¦„ ë¶™ì€ ë°˜ë³µë¬¸
 	public static void main(String[] args) {
 
-		// for¹®¿¡ Loop1ÀÌ¶ó´Â ÀÌ¸§À» ºÙÀÓ.
+		// forë¬¸ì— Loop1ì´ë¼ëŠ” ì´ë¦„ì„ ë¶™ì„.
 		Loop1 : for(int i=2;i<=9;i++) {
 			for(int j=1; j<=9;j++) {
 				if(j==5)
@@ -16,5 +16,5 @@ public class ch4_FlowEx33 {
 			}	// end of for j
 			System.out.println();
 		}	// end of Loop1
-	} // mainÀÇ ³¡
+	} // mainì˜ ë
 }

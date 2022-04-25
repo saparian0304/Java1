@@ -1,11 +1,11 @@
-package StandardProcedureOfJava.ch5;
+ï»¿package StandardProcedureOfJava.ch5;
 
 import java.util.Arrays;
 
 public class ch5_ArrayEx9 {
-	// ÀÓÀÇÀÇ °ªÀ¸·Î ¹è¿­ Ã¤¿ì±â
+	// ì„ì˜ì˜ ê°’ìœ¼ë¡œ ë°°ì—´ ì±„ìš°ê¸°
 	public static void main(String[] args) {
-		int[] code = {-4, -1, 3, 6, 11};	// ºÒ¿¬¼ÓÀûÀÎ °ªµé·Î ±¸¼ºµÈ ¹è¿­
+		int[] code = {-4, -1, 3, 6, 11};	// ë¶ˆì—°ì†ì ì¸ ê°’ë“¤ë¡œ êµ¬ì„±ëœ ë°°ì—´
 		int[] arr = new int[10];
 		
 		for (int i=0; i < arr.length; i++) {
@@ -15,7 +15,7 @@ public class ch5_ArrayEx9 {
 		
 		System.out.println(Arrays.toString(arr));
 
-	}	// mainÀÇ ³¡
+	}	// mainì˜ ë
 }
 
-// ÈÄº¸±º ¼ıÀÚµéÀ» ÀÌ¿ëÇÏ¿© ·£´ıÀ¸·Î ¹è¿­ÀÇ ÀÚ¸®¸¦ Ã¤¿ì±â 
+// í›„ë³´êµ° ìˆ«ìë“¤ì„ ì´ìš©í•˜ì—¬ ëœë¤ìœ¼ë¡œ ë°°ì—´ì˜ ìë¦¬ë¥¼ ì±„ìš°ê¸° 

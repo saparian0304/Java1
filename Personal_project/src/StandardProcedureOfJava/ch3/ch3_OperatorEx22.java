@@ -1,4 +1,4 @@
-package StandardProcedureOfJava.ch3;
+ï»¿package StandardProcedureOfJava.ch3;
 
 public class ch3_OperatorEx22 {
 
@@ -22,6 +22,6 @@ public class ch3_OperatorEx22 {
 
 
 /*
-float f = 0.1f;			// f¿¡ 0.0000000149011612·Î ÀúÀåµÈ´Ù.
-double d = 0.1;			// d¿¡ 0.0000000000000001·Î ÀúÀåµÈ´Ù.		
+float f = 0.1f;			// fì— 0.0000000149011612ë¡œ ì €ì¥ëœë‹¤.
+double d = 0.1;			// dì— 0.0000000000000001ë¡œ ì €ì¥ëœë‹¤.		
 */

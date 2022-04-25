@@ -1,4 +1,4 @@
-package StandardProcedureOfJava.ch4;
+ï»¿package StandardProcedureOfJava.ch4;
 
 public class ch4_FlowEx29 {
 
@@ -9,14 +9,14 @@ public class ch4_FlowEx29 {
 			int tmp = i;
 			
 			do {
-				// tmp%10ÀÌ 3ÀÇ ¹è¼öÀÎÁö È®ÀÎ (0 Á¦¿Ü)
+				// tmp%10ì´ 3ì˜ ë°°ìˆ˜ì¸ì§€ í™•ì¸ (0 ì œì™¸)
 				if(tmp%10%3==0 && tmp%10!=0)
-					System.out.print("Â¦");
-			// tmp /= 10Àº tmp = tmp / 10°ú µ¿ÀÏ
+					System.out.print("ì§");
+			// tmp /= 10ì€ tmp = tmp / 10ê³¼ ë™ì¼
 			} while((tmp/=10)!=0);
 			
 			System.out.println();
 		}
 
-	}	// mainÀÇ ³¡
+	}	// mainì˜ ë
 }

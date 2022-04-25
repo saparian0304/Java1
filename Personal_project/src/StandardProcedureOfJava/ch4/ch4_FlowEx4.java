@@ -1,14 +1,14 @@
-package StandardProcedureOfJava.ch4;
+ï»¿package StandardProcedureOfJava.ch4;
 
 import java.util.Scanner;
 
 public class ch4_FlowEx4 {
 
 	public static void main(String[] args) {
-		int score = 0;		// Á¡¼ö¸¦ ÀúÀåÇÏ±â À§ÇÑ º¯¼ö
-		char grade = ' ';	// ÇĞÁ¡À» ÀúÀåÇÏ±â À§ÇÑ º¯¼ö. °ø¹éÀ¸·Î ÃÊ±âÈ­ÇÑ´Ù.
+		int score = 0;		// ì ìˆ˜ë¥¼ ì €ì¥í•˜ê¸° ìœ„í•œ ë³€ìˆ˜
+		char grade = ' ';	// í•™ì ì„ ì €ì¥í•˜ê¸° ìœ„í•œ ë³€ìˆ˜. ê³µë°±ìœ¼ë¡œ ì´ˆê¸°í™”í•œë‹¤.
 		
-		System.out.print("Á¡¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä.>");
+		System.out.print("ì ìˆ˜ë¥¼ ì…ë ¥í•˜ì„¸ìš”.>");
 		Scanner scanner = new Scanner(System.in);
 		score = scanner.nextInt();
 		
@@ -21,9 +21,9 @@ public class ch4_FlowEx4 {
 		} else {
 			grade = 'D';
 		}
-		System.out.println("´ç½ÅÀÇ ÇĞÁ¡Àº "+grade+"ÀÔ´Ï´Ù.");
-	} // mainÀÇ ³¡
+		System.out.println("ë‹¹ì‹ ì˜ í•™ì ì€ "+grade+"ì…ë‹ˆë‹¤.");
+	} // mainì˜ ë
 
 }
 
-// else´Â ¾ø¾îµµ µÈ´Ù. ¾øÀ» °æ¿ì if, else ifÀÇ Á¶°ÇÀ» ¸¸Á·ÇÏÁö ¾ÊÀ» °æ¿ì, ¼öÇà¹® ½ÇÇà¾øÀÌ ³Ñ¾î°£´Ù. 
+// elseëŠ” ì—†ì–´ë„ ëœë‹¤. ì—†ì„ ê²½ìš° if, else ifì˜ ì¡°ê±´ì„ ë§Œì¡±í•˜ì§€ ì•Šì„ ê²½ìš°, ìˆ˜í–‰ë¬¸ ì‹¤í–‰ì—†ì´ ë„˜ì–´ê°„ë‹¤. 

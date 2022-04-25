@@ -1,7 +1,7 @@
-package StandardProcedureOfJava.ch5;
+ï»¿package StandardProcedureOfJava.ch5;
 
 public class ch5_ArrayEx10 {
-	// ¹öºíÁ¤·Ä(bubble sort)
+	// ë²„ë¸”ì •ë ¬(bubble sort)
 	public static void main(String[] args) {
 		int[] numArr = new int[10];
 		
@@ -22,13 +22,13 @@ public class ch5_ArrayEx10 {
 				}
 			} // end for j
 			
-			if (!changed) break;	// ÀÚ¸®¹Ù²ŞÀÌ ¾øÀ¸¸é ¹İº¹¹®À» ¹ù¾î³­´Ù.
-			// ÀÚ¸®¹Ù²ŞÀÌ ÀÏ¾î³ª¸é changed = true,  !changed = false,  if (false) ÀÌ¹Ç·Î if¹®À» °Ç³Ê¶Ü
-			// ÀÚ¸®¹Ù²ŞÀÌ ¾øÀ¸¸é changed=false, !changed=true, if(true)ÀÌ¹Ç·Î break¹® ½ÇÇà
+			if (!changed) break;	// ìë¦¬ë°”ê¿ˆì´ ì—†ìœ¼ë©´ ë°˜ë³µë¬¸ì„ ë²‹ì–´ë‚œë‹¤.
+			// ìë¦¬ë°”ê¿ˆì´ ì¼ì–´ë‚˜ë©´ changed = true,  !changed = false,  if (false) ì´ë¯€ë¡œ ifë¬¸ì„ ê±´ë„ˆëœ€
+			// ìë¦¬ë°”ê¿ˆì´ ì—†ìœ¼ë©´ changed=false, !changed=true, if(true)ì´ë¯€ë¡œ breakë¬¸ ì‹¤í–‰
 			
 			for(int k=0; k<numArr.length; k++) 
 				System.out.print(numArr[k]);
 			System.out.println();
 		} 	// end of i
-	}	// mainÀÇ ³¡
+	}	// mainì˜ ë
 }

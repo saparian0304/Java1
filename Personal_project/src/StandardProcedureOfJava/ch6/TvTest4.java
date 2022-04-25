@@ -1,30 +1,21 @@
-package StandardProcedureOfJava.ch6;
+ï»¿package StandardProcedureOfJava.ch6;
 
 class TvTest4 {
 	public static void main(String args[]) {
-		Tv[] tvArr = new Tv[3];	// ±æÀÌ°¡ 3ÀÎ Tv°´Ã¼ ¹è¿­
+		Tv[] tvArr = new Tv[3];	// æ¹²ëª„Âë‹¿? 3??Tvåª›Âï§£?è«›ê³—Â—?
 		
-		// Tv °´Ã¼¸¦ »ı¼ºÇØ¼­ Tv°´Ã¼ ¹è¿­ÀÇ °¢ ¿ä¼Ò¿¡ ÀúÀå
+		// Tv åª›Âï§£ëŒ€? ?Â?ê¹ŠÂ•ëŒÂ„Âœ Tvåª›Âï§£?è«›ê³—Â—ëŒÂÂ˜ åª›Â ?Â”?ÂŒ?Â ?Â€??
 		for (int i=0; i<tvArr.length; i++) {
 			tvArr[i] = new Tv();
-			tvArr[i].channel = i+10;	// tvArr[i]ÀÇ channel¿¡ i+10À» ÀúÀå
+			tvArr[i].channel = i+10;	// tvArr[i]?Â˜ channel?Â i+10?Â„ ?Â€??
 		}
 		
 		for (int i=0; i<tvArr.length; i++) {
-			tvArr[i].channelUp();	// tvArr[i]ÀÇ ¸Ş¼­µå¸¦ È£Ãâ. Ã¤³ÎÀÌ 1 Áõ°¡
+			tvArr[i].channelUp();	// tvArr[i]?Â˜ ï§Â”?Âœ?Âœç‘œ??ëª„?. ï§¢Â„?Â??1 ï§Âåª›Â€
 			System.out.printf("tvArr[%d].channel=%d%n", i, tvArr[i].channel);
 		}
 		
-	}	// mainÀÇ ³¡
+	}	// main?Â˜ ?Â
 }
 
 
-class Tv {
-	String color;		// »ö»ó
-	boolean power;		// Àü¿ø»óÅÂ (on/off)
-	int channel;		// Ã¤³Î
-	
-	void power() { power = !power;}
-	void channelUp() { ++channel;}
-	void channelDown() { --channel;}
-}

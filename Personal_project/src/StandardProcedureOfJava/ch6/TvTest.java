@@ -1,12 +1,12 @@
-package StandardProcedureOfJava.ch6;
+ï»¿package StandardProcedureOfJava.ch6;
 
 class Tv {
-	// TvÀÇ ¼Ó¼º (¸â¹öº¯¼ö)
+	// Tv?Â˜ ?Â??(ï§ã…»?è¹‚Â€?Â˜)
 	String color;
 	boolean power;
 	int channel;
 	
-	// TvÀÇ ±â´É (¸Ş¼­µå)
+	// Tv?Â˜ æ¹²ê³•ÂŠ?(ï§Â”?Âœ?Âœ)
 	void power() { power = !power; }
 	void channelUp() { ++channel;}
 	void channelDown() { --channel;}
@@ -19,8 +19,8 @@ class TvTest {
 		t.channel = 7;
 		t.channelDown();
 		t.color = "green";
-		System.out.println("ÇöÀç Ã¤³ÎÀº " + t.channel + " ÀÔ´Ï´Ù.");
-		System.out.println("TvÀÇ »ö»óÀº " + t.color + " ÀÔ´Ï´Ù.");
+		System.out.println("?Â„??ï§¢Â„?Â?Â€ " + t.channel + " ?Â…?Âˆ??");
+		System.out.println("Tv?Â˜ ?Â‰?Â?Â€ " + t.color + " ?Â…?Âˆ??");
 	}
 
 }

@@ -15,7 +15,7 @@ public class InstanceApp {
 		p2.close();
 		
 		p2.toString();
-		p2.write();
+		p2.write("");
 		
 //		PrintWriter.write("result1.txt", "Hello 1");
 //		PrintWriter.write("result2.txt", "Hello 2");

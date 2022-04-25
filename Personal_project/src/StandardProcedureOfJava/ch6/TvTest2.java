@@ -1,29 +1,17 @@
-package StandardProcedureOfJava.ch6;
-
-class Tv {
-	// TvÀÇ ¼Ó¼º (¸â¹öº¯¼ö)
-	String color;
-	boolean power;
-	int channel;
-	
-	// TvÀÇ ±â´É (¸Ş¼­µå)
-	void power() 	{ power = !power;}
-	void channelUp()	{ ++channel;}
-	void channelDown()	{ --channel;}
-}
+ï»¿package StandardProcedureOfJava.ch6;
 
 class TvTest2 {
 	public static void main(String args[]) {
 		Tv t1 = new Tv();
 		Tv t2 = new Tv();
-		System.out.println("t1ÀÇ channel°ªÀº " + t1.channel + "ÀÔ´Ï´Ù.");
-		System.out.println("t2ÀÇ channel°ªÀº " + t2.channel + "ÀÔ´Ï´Ù.");
+		System.out.println("t1ì˜Â˜ channelê°’ì€Â€ " + t1.channel + "ì…ë‹ˆë‹¤");
+		System.out.println("t2?ì˜ channelê°’ì€ " + t2.channel + "ì…ë‹ˆë‹¤");
 		
 		t1.channel = 7;
-		System.out.println("t1ÀÇ channel°ªÀ» 7·Î º¯°æÇÏ¿´½À´Ï´Ù.");
+		System.out.println("t1ì˜Â˜ channelê°’ì„Â„ 7ë¡œ ë³€ê²½í•˜ì˜€ìŠµë‹ˆë‹¤");
 		
-		System.out.println("t1ÀÇ channel°ªÀº " + t1.channel + "ÀÔ´Ï´Ù.");
-		System.out.println("t2ÀÇ channel°ªÀº " + t2.channel + "ÀÔ´Ï´Ù.");
+		System.out.println("t1ì˜ channelê°’ì€Â€ " + t1.channel + "ì…ë‹ˆë‹¤");
+		System.out.println("t2ì˜ channelê°’ì€ " + t2.channel + "ì…ë‹ˆë‹¤");
 			
 	}
 

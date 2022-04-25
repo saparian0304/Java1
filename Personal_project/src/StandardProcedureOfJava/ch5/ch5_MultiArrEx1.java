@@ -1,9 +1,9 @@
-package StandardProcedureOfJava.ch5;
+ï»¿package StandardProcedureOfJava.ch5;
 
 import java.util.Scanner;
 
 public class ch5_MultiArrEx1 {
-	// ÁÂÇ¥¿¡ xÇ¥ ÇÏ±â
+	// ì¢Œí‘œì— xí‘œ í•˜ê¸°
 	public static void main(String[] args) {
 		final int SIZE = 10;
 		int x = 0, y = 0;
@@ -22,37 +22,37 @@ public class ch5_MultiArrEx1 {
 				{  0, 0, 0, 0, 0, 1, 1, 1, 0 }, // 9
 		};
 		
-		// 1Çà¿¡ Çà¹øÈ£¸¦, 1¿­¿¡ ¿­¹øÈ£¸¦ ÀúÀåÇÑ´Ù.
+		// 1í–‰ì— í–‰ë²ˆí˜¸ë¥¼, 1ì—´ì— ì—´ë²ˆí˜¸ë¥¼ ì €ì¥í•œë‹¤.
 		for(int i=1; i<SIZE; i++)
 			board[0][i] = board[i][0] = (char)(i+'0');
 		
 		Scanner scanner = new Scanner(System.in);
 		
 		while(true) {
-			System.out.printf("ÁÂÇ¥¸¦ ÀÔ·ÂÇÏ¼¼¿ä. (Á¾·á´Â 00)>");
-			String input = scanner.nextLine();	// È­¸é¿¡ ÀÔ·Â¹ŞÀº ³»¿ëÀ» input¿¡ ÀúÀå
+			System.out.printf("ì¢Œí‘œë¥¼ ì…ë ¥í•˜ì„¸ìš”. (ì¢…ë£ŒëŠ” 00)>");
+			String input = scanner.nextLine();	// í™”ë©´ì— ì…ë ¥ë°›ì€ ë‚´ìš©ì„ inputì— ì €ì¥
 			
-			if(input.length()==2) {	// µÎ ±ÛÀÚ¸¦ ÀÔ·ÂÇÑ °æ¿ì
-				x = input.charAt(0) - '0';	// ¹®ÀÚ¸¦ ¼ıÀÚ·Î º¯È¯
+			if(input.length()==2) {	// ë‘ ê¸€ìë¥¼ ì…ë ¥í•œ ê²½ìš°
+				x = input.charAt(0) - '0';	// ë¬¸ìë¥¼ ìˆ«ìë¡œ ë³€í™˜
 				y = input.charAt(1) - '0';
 				
-				if(x==0 && y==0)	// x¿Í y°¡ ¸ğµÎ 0ÀÎ °æ¿ì Á¾·á
+				if(x==0 && y==0)	// xì™€ yê°€ ëª¨ë‘ 0ì¸ ê²½ìš° ì¢…ë£Œ
 					break;
 			}
 			
 			if(input.length()!=2 || x<=0 || x>=SIZE || y<=0 || y>=SIZE) {
-				System.out.println("Àß¸øµÈ ÀÔ·ÂÀÔ´Ï´Ù. ´Ù½Ã ÀÔ·ÂÇØÁÖ¼¼¿ä.");
+				System.out.println("ì˜ëª»ëœ ì…ë ¥ì…ë‹ˆë‹¤. ë‹¤ì‹œ ì…ë ¥í•´ì£¼ì„¸ìš”.");
 				continue;
 			}
 			
-			// shipBoard[x-1][y-1]ÀÇ °ªÀÌ 1ÀÌ¸é, 'O'¸¦ board[x][y]¿¡ ÀúÀåÇÑ´Ù.
+			// shipBoard[x-1][y-1]ì˜ ê°’ì´ 1ì´ë©´, 'O'ë¥¼ board[x][y]ì— ì €ì¥í•œë‹¤.
 			board[x][y] = shipBoard[x-1][y-1]==1 ? 'O' : 'X';
 			
-			// ¹è¿­ boardÀÇ ³»¿ëÀ» È­¸é¿¡ Ãâ·ÂÇÑ´Ù.
+			// ë°°ì—´ boardì˜ ë‚´ìš©ì„ í™”ë©´ì— ì¶œë ¥í•œë‹¤.
 			for(int i=0; i<SIZE; i++)
-				System.out.println(board[i]);	// board[i]´Â 1Â÷¿ø ¹è¿­
+				System.out.println(board[i]);	// board[i]ëŠ” 1ì°¨ì› ë°°ì—´
 			System.out.println();
 			
 		}
-	}	// mainÀÇ ³¡
+	}	// mainì˜ ë
 }

@@ -1,20 +1,20 @@
-package StandardProcedureOfJava.ch4;
+ï»¿package StandardProcedureOfJava.ch4;
 
 public class ch4_FlowEx30 {
 	
-	// break¹®
+	// breakë¬¸
 	public static void main(String[] args) {
 		int sum = 0;
 		int i	= 0;
 		
 		while(true) {
 			if(sum>100)
-				break;		// °¡Àå °¡±î¿î ¹İº¹¹®À» ¹ş¾î³­´Ù.
+				break;		// ê°€ì¥ ê°€ê¹Œìš´ ë°˜ë³µë¬¸ì„ ë²—ì–´ë‚œë‹¤.
 			++i;
 			sum += i;
 		} // end of while
 		
 		System.out.println("i=" + i);
 		System.out.println("sum="+sum);
-	}	// mainÀÇ ³¡
+	}	// mainì˜ ë
 }

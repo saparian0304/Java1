@@ -1,14 +1,14 @@
-package StandardProcedureOfJava.ch4;
+ï»¿package StandardProcedureOfJava.ch4;
 
 public class Ch4_FlowEx12 {
-	// ¹Ýº¹¹® for
+	// ë°˜ë³µë¬¸ for
 	public static void main(String[] args) {
 		for(int i=1;i<=5;i++)
-			System.out.println(i);	// iÀÇ °ªÀ» Ãâ·ÂÇÑ´Ù.
+			System.out.println(i);	// iì˜ ê°’ì„ ì¶œë ¥í•œë‹¤.
 		
 		for(int i=1;i<=5;i++)
-			System.out.print(i);	// print()¸¦ ¾²¸é °¡·Î·Î Ãâ·ÂµÈ´Ù.
+			System.out.print(i);	// print()ë¥¼ ì“°ë©´ ê°€ë¡œë¡œ ì¶œë ¥ëœë‹¤.
 		
 		System.out.println();
-	}	// mainÀÇ ³¡
+	}	// mainì˜ ë
 }

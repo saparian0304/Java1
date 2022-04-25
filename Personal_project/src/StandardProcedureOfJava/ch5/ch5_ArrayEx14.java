@@ -1,4 +1,4 @@
-package StandardProcedureOfJava.ch5;
+ï»¿package StandardProcedureOfJava.ch5;
 
 public class ch5_ArrayEx14 {
 
@@ -6,15 +6,15 @@ public class ch5_ArrayEx14 {
 		String src = "ABCDE";
 		
 		for(int i=0; i<src.length(); i++) {
-			char ch = src.charAt(i);	// srcÀÇ i¹øÂ° ¹®ÀÚ¸¦ ch¿¡ ÀúÀå
+			char ch = src.charAt(i);	// srcì˜ ië²ˆì§¸ ë¬¸ìžë¥¼ chì— ì €ìž¥
 			System.out.println("src.charAt("+ i +"):" + ch);
 		}
 		
-		// StringÀ» char[]·Î º¯È¯
+		// Stringì„ char[]ë¡œ ë³€í™˜
 		char[] chArr = src.toCharArray();
 		
-		// char[]¹è¿­(chArr[])À» Ãâ·Â
+		// char[]ë°°ì—´(chArr[])ì„ ì¶œë ¥
 		System.out.println(chArr);
 
-	}	// mainÀÇ ³¡
+	}	// mainì˜ ë
 }

@@ -1,4 +1,4 @@
-package StandardProcedureOfJava.ch5;
+ï»¿package StandardProcedureOfJava.ch5;
 
 public class ch5_ArrayEx12 {
 
@@ -8,11 +8,11 @@ public class ch5_ArrayEx12 {
 		for(int i = 0; i<names.length; i++) 
 			System.out.println("names["+i+"]:" + names[i]);
 		
-		String tmp = names[2];	// ¹è¿­ namesÀÇ ¼¼¹øÂ° ¿ä¼Ò¸¦ tmp¿¡ ÀúÀå
+		String tmp = names[2];	// ë°°ì—´ namesì˜ ì„¸ë²ˆì§¸ ìš”ì†Œë¥¼ tmpì— ì €ìž¥
 		System.out.println("tmp:" + tmp);
-		names[0] = "Yu";	// ¹è¿­ namesÀÇ Ã¹¹øÂ° ¿ä¼Ò¸¦ "Yu"·Î º¯°æ
+		names[0] = "Yu";	// ë°°ì—´ namesì˜ ì²«ë²ˆì§¸ ìš”ì†Œë¥¼ "Yu"ë¡œ ë³€ê²½
 		
-		for(String str : names)	// Çâ»óµÈ for¹®
+		for(String str : names)	// í–¥ìƒëœ forë¬¸
 			System.out.println(str);
-	} // mainÀÇ ³¡
+	} // mainì˜ ë
 }

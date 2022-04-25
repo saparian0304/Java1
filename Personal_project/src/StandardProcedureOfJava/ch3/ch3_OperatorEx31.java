@@ -1,4 +1,4 @@
-package StandardProcedureOfJava.ch3;
+ï»¿package StandardProcedureOfJava.ch3;
 
 public class ch3_OperatorEx31 {
 
@@ -22,4 +22,4 @@ public class ch3_OperatorEx31 {
 	}
 }
 
-// 16 Áø¼ö¿¡¼­ ÇÑÀÚ¸®¾¿ ÃßÃâÇÒ ¶§ À§¿Í °°Àº ½ÄÀ» ÀÌ¿ëÇÒ ¼ö ÀÖ´Ù.
+// 16 ì§„ìˆ˜ì—ì„œ í•œìë¦¬ì”© ì¶”ì¶œí•  ë•Œ ìœ„ì™€ ê°™ì€ ì‹ì„ ì´ìš©í•  ìˆ˜ ìˆë‹¤.

@@ -1,9 +1,9 @@
-package StandardProcedureOfJava.ch5;
+ï»¿package StandardProcedureOfJava.ch5;
 
 public class ch5_ArrayEx13 {
-	// 16Áø¼ö¸¦ 2Áø¼ö·Î º¯È¯ÇÏ±â
+	// 16ì§„ìˆ˜ë¥¼ 2ì§„ìˆ˜ë¡œ ë³€í™˜í•˜ê¸°
 	public static void main(String[] args) {
-		char[] hex = {'C', 'A', 'F', 'E'};	// °¢ ¿ä¼Ò°¡ 16Áø¼ö Áß ÇÏ³ª 0123456789ABCDEF
+		char[] hex = {'C', 'A', 'F', 'E'};	// ê° ìš”ì†Œê°€ 16ì§„ìˆ˜ ì¤‘ í•˜ë‚˜ 0123456789ABCDEF
 		String[] binary = {	"0000", "0001", "0010", "0011"
 						,	"0100", "0101", "0110", "0111"
 						,	"1000", "1001", "1010", "1011"
@@ -13,22 +13,22 @@ public class ch5_ArrayEx13 {
 		
 		for(int i=0; i<hex.length; i++) {
 			if(hex[i]>='0' && hex[i]<='9') {
-				result += binary[hex[i]-'0'];	// '8'- '0'ÀÇ °á°ú´Â 8ÀÌ´Ù.
+				result += binary[hex[i]-'0'];	// '8'- '0'ì˜ ê²°ê³¼ëŠ” 8ì´ë‹¤.
 			} else {
-				result += binary[hex[i]-'A'+10];	// 'C'-'A'ÀÇ °á°ú´Â 2
+				result += binary[hex[i]-'A'+10];	// 'C'-'A'ì˜ ê²°ê³¼ëŠ” 2
 			}
-		}	// forÀÇ ³¡
+		}	// forì˜ ë
 		
 										// String(char[] value)
 		System.out.println("hex:" + new String(hex));
 		System.out.println("binary:" + result);
 
-	}	// mainÀÇ ³¡ 
+	}	// mainì˜ ë 
 }
 
 
 /* 
- *	result += binary[hex[0]-'A'+10];	// hex[0]Àº 'C'
+ *	result += binary[hex[0]-'A'+10];	// hex[0]ì€ 'C'
  *	result += binary['C'-'A'+10];		// 'C' -'A' = 67 - 65 = 2
  *	result += binary[2+10];
  *	result += binary[12];

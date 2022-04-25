@@ -1,14 +1,14 @@
-package StandardProcedureOfJava.ch4;
+ï»¿package StandardProcedureOfJava.ch4;
 
 public class ch4_FlowEx31 {
-	// continue¹®
+	// continueë¬¸
 	public static void main(String[] args) {
 		for(int i=0;i <= 10; i++) {
 			if (i%3==0)
 				continue;
 			System.out.println(i);
 		}
-	}	//mainÀÇ ³¡
+	}	//mainì˜ ë
 }
 
-// ¹Ýº¹¹®À» ¹þ¾î³ª´Â break¹®°ú´Â ´Þ¸® continue¹®Àº ¹Ýº¹¹®À» ¹þ¾î³ªÁö ¾Ê´Â´Ù.
+// ë°˜ë³µë¬¸ì„ ë²—ì–´ë‚˜ëŠ” breakë¬¸ê³¼ëŠ” ë‹¬ë¦¬ continueë¬¸ì€ ë°˜ë³µë¬¸ì„ ë²—ì–´ë‚˜ì§€ ì•ŠëŠ”ë‹¤.

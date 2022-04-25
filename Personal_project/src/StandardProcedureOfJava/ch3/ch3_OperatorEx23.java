@@ -1,4 +1,4 @@
-package StandardProcedureOfJava.ch3;
+ï»¿package StandardProcedureOfJava.ch3;
 
 public class ch3_OperatorEx23 {
 
@@ -8,7 +8,7 @@ public class ch3_OperatorEx23 {
 		
 		System.out.printf("\"abc\"==\"abc\" ? %b%n", "abc"=="abc");
 		System.out.printf(" str1==\"abc\" ? %b%n", str1=="abc");
-		System.out.printf(" str2==\"abc\" ? %b%n", str2=="abc");			// false, °´Ã¼°¡ ´Ù¸£±â¶§¹®¿¡ false·Î Ãâ·ÂÀÌ µÈ´Ù.
+		System.out.printf(" str2==\"abc\" ? %b%n", str2=="abc");			// false, ê°ì²´ê°€ ë‹¤ë¥´ê¸°ë•Œë¬¸ì— falseë¡œ ì¶œë ¥ì´ ëœë‹¤.
 		System.out.printf("str1.equals(\"abc\") ? %b%n", str1.equals("abc"));
 		System.out.printf("str2.equals(\"abc\") ? %b%n", str2.equals("abc"));
 		System.out.printf("str2.equals(\"ABC\") ? %b%n", str2.equals("ABC"));
@@ -19,7 +19,7 @@ public class ch3_OperatorEx23 {
 
 /*
 
-¹®ÀÚ¸¦ ºñ±³ÇÒ¶§´Â Ç×»ó equals()¸¦ »ç¿ëÇÏÀÚ
-´ë¼Ò¹®ÀÚ¸¦ ±¸º°ÇÏÁö¾Ê°í ºñ±³ÇÏ·Á¸é equalsIgnoreCase()¸¦ »ç¿ëÇÏÀÚ
+ë¬¸ìë¥¼ ë¹„êµí• ë•ŒëŠ” í•­ìƒ equals()ë¥¼ ì‚¬ìš©í•˜ì
+ëŒ€ì†Œë¬¸ìë¥¼ êµ¬ë³„í•˜ì§€ì•Šê³  ë¹„êµí•˜ë ¤ë©´ equalsIgnoreCase()ë¥¼ ì‚¬ìš©í•˜ì
 
 */

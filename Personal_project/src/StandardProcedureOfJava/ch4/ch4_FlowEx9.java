@@ -1,4 +1,4 @@
-package StandardProcedureOfJava.ch4;
+ï»¿package StandardProcedureOfJava.ch4;
 
 import java.util.Scanner;
 
@@ -7,10 +7,10 @@ public class ch4_FlowEx9 {
 	public static void main(String[] args) {
 		char grade = ' ';
 		
-		System.out.print("´ç½ÅÀÇ Á¡¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä.(1~100)>");
+		System.out.print("ë‹¹ì‹ ì˜ ì ìˆ˜ë¥¼ ìž…ë ¥í•˜ì„¸ìš”.(1~100)>");
 		
 		Scanner scanner = new Scanner(System.in);
-		int score = scanner.nextInt();		// È­¸éÀ» ÅëÇØ ÀÔ·Â¹ÞÀº ¼ýÀÚ¸¦ score¿¡ ÀúÀå
+		int score = scanner.nextInt();		// í™”ë©´ì„ í†µí•´ ìž…ë ¥ë°›ì€ ìˆ«ìžë¥¼ scoreì— ì €ìž¥
 		
 		switch(score) {
 			case 100: case 99: case 98: case 97: case 96:
@@ -29,10 +29,10 @@ public class ch4_FlowEx9 {
 				grade = 'F';
 		}	// end of switch
 		
-		System.out.println("´ç½ÅÀÇ ÇÐÁ¡Àº " + grade + "ÀÔ´Ï´Ù.");
+		System.out.println("ë‹¹ì‹ ì˜ í•™ì ì€ " + grade + "ìž…ë‹ˆë‹¤.");
 
-	} // mainÀÇ ³¡
+	} // mainì˜ ë
 }
 
-// switchÀÇ °æ¿ì ÇÏ³ªÀÇ Á¶°Ç½Ä¸¸ °è»êÇÏ¸é µÇ±â¶§¹®¿¡ ¼Óµµ°¡ if¹®¿¡ ºñÇØ ºü¸£Áö¸¸ case¹®ÀÌ ¸¹¾Æ º¸±â ¾ÊÁÁÀº ÄÚµå°¡ µÇ¾ú´Ù.
-// ÀÌ·¯ÇÑ ¿¹Á¦¸¦ ¾µ¶§ ºü¸¥ ¼Óµµ°¡ ÇÊ¿äÇÑ °æ¿ì¿£ switch¸¦ ½á¾ßÇÏÁö¸¸, ±×·± °æ¿ì°¡ ¾Æ´Ï¶ó¸é if¹®ÀÌ ÀûÇÕÇÏ´Ù.
+// switchì˜ ê²½ìš° í•˜ë‚˜ì˜ ì¡°ê±´ì‹ë§Œ ê³„ì‚°í•˜ë©´ ë˜ê¸°ë•Œë¬¸ì— ì†ë„ê°€ ifë¬¸ì— ë¹„í•´ ë¹ ë¥´ì§€ë§Œ caseë¬¸ì´ ë§Žì•„ ë³´ê¸° ì•Šì¢‹ì€ ì½”ë“œê°€ ë˜ì—ˆë‹¤.
+// ì´ëŸ¬í•œ ì˜ˆì œë¥¼ ì“¸ë•Œ ë¹ ë¥¸ ì†ë„ê°€ í•„ìš”í•œ ê²½ìš°ì—” switchë¥¼ ì¨ì•¼í•˜ì§€ë§Œ, ê·¸ëŸ° ê²½ìš°ê°€ ì•„ë‹ˆë¼ë©´ ifë¬¸ì´ ì í•©í•˜ë‹¤.

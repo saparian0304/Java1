@@ -1,4 +1,4 @@
-package StandardProcedureOfJava.ch3;
+ï»¿package StandardProcedureOfJava.ch3;
 
 public class ch3_OperatorEx2 {
 
@@ -6,13 +6,13 @@ public class ch3_OperatorEx2 {
 		int i=5, j=0;
 		
 		j = i++;
-		System.out.println("j=i++; ½ÇÇà ÈÄ, i=" + i + ", j=" + j);
+		System.out.println("j=i++; ì‹¤í–‰ í›„, i=" + i + ", j=" + j);
 		
-		i =5;		// °á°ú¸¦ ºñ±³ÇÏ±â À§ÇØ, i¿Í jÀÇ °ªÀ» ´Ù½Ã 5¿Í 0À¸·Î º¯°æ
+		i =5;		// ê²°ê³¼ë¥¼ ë¹„êµí•˜ê¸° ìœ„í•´, iì™€ jì˜ ê°’ì„ ë‹¤ì‹œ 5ì™€ 0ìœ¼ë¡œ ë³€ê²½
 		j=0;
 		
 		j = ++i;
-		System.out.println("j=++i; ½ÇÇà ÈÄ, i=" + i + ", j=" + j);
+		System.out.println("j=++i; ì‹¤í–‰ í›„, i=" + i + ", j=" + j);
 
 	}
 

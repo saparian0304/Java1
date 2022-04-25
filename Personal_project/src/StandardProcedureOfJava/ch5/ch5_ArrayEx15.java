@@ -1,7 +1,7 @@
-package StandardProcedureOfJava.ch5;
+ï»¿package StandardProcedureOfJava.ch5;
 
 public class ch5_ArrayEx15 {
-	// ¹®ÀÚ¿­À» morse ºÎÈ£·Î º¯È¯ÇÏ±â
+	// ë¬¸ìì—´ì„ morse ë¶€í˜¸ë¡œ ë³€í™˜í•˜ê¸°
 	public static void main(String[] args) {
 		String source = "SOSHELP";
 		String[] morse = {".-", "-...", "-.-.", "-..", "."
@@ -19,5 +19,5 @@ public class ch5_ArrayEx15 {
 		System.out.println("source:" + source);
 		System.out.println("morse:" + result);
 
-	}	// mainÀÇ ³¡
+	}	// mainì˜ ë
 }

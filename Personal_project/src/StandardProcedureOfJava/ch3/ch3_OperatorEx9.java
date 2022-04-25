@@ -1,4 +1,4 @@
-package StandardProcedureOfJava.ch3;
+ï»¿package StandardProcedureOfJava.ch3;
 
 public class ch3_OperatorEx9 {
 
@@ -13,4 +13,4 @@ public class ch3_OperatorEx9 {
 
 }
 
-// b´Â int * long À¸·Î ÀÎÇØ ÀÚ¿¬½º·¹ Çüº¯È¯ÀÌ ¼±ÇàµÈ ¿¬»êÀÌ ÀÌ·ç¾îÁø´Ù. 
+// bëŠ” int * long ìœ¼ë¡œ ì¸í•´ ìì—°ìŠ¤ë ˆ í˜•ë³€í™˜ì´ ì„ í–‰ëœ ì—°ì‚°ì´ ì´ë£¨ì–´ì§„ë‹¤. 

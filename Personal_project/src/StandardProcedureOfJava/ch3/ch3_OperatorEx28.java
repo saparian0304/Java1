@@ -1,28 +1,28 @@
-package StandardProcedureOfJava.ch3;
+ï»¿package StandardProcedureOfJava.ch3;
 
 public class ch3_OperatorEx28 {
-	// ºñÆ®¿¬»êÀÚ
+	// ë¹„íŠ¸ì—°ì‚°ì
 	public static void main(String[] args) {
 		int x = 0xAB, y = 0xF;
 		
-		System.out.printf("x = %#X \t\t%s%n", x, toBinaryString(x));	// %X : 16Áø¼ö, %#X : Á¢µÎ»ç°¡ ºÙÀº 16Áø¼ö
+		System.out.printf("x = %#X \t\t%s%n", x, toBinaryString(x));	// %X : 16ì§„ìˆ˜, %#X : ì ‘ë‘ì‚¬ê°€ ë¶™ì€ 16ì§„ìˆ˜
 		System.out.printf("y = %#X \t\t%s%n", y, toBinaryString(y));
 		
-		// '|' : 'OR' ¿¬»êÀÚ
+		// '|' : 'OR' ì—°ì‚°ì
 		System.out.printf("%#X | %#X = %#X \t%s%n", x, y, x | y, toBinaryString(x|y));
 		
-		// '&' : 'AND' ¿¬»êÀÚ
+		// '&' : 'AND' ì—°ì‚°ì
 		System.out.printf("%#X & %#X = %#X \t%s%n", x, y, x & y, toBinaryString(x&y));
 		
-		// '^' : 'XOR' ¿¬»êÀÚ (µÎ ¿¬»êÀÚÀÇ ºñÆ®°¡ ´Ù¸¦¶§¸¸ 1ÀÌ µÈ´Ù.)
+		// '^' : 'XOR' ì—°ì‚°ì (ë‘ ì—°ì‚°ìì˜ ë¹„íŠ¸ê°€ ë‹¤ë¥¼ë•Œë§Œ 1ì´ ëœë‹¤.)
 		System.out.printf("%#X ^ %#X = %#X \t%s%n", x, y, x^y, toBinaryString(x^y));
-		// ´Ù½Ã ¿¬»êÇÏ¸é ¿ø·¡ÀÇ °ªÀ¸·Î µ¹¾Æ¿À´Â Æ¯Â¡ÀÌ ÀÖ´Ù.
+		// ë‹¤ì‹œ ì—°ì‚°í•˜ë©´ ì›ë˜ì˜ ê°’ìœ¼ë¡œ ëŒì•„ì˜¤ëŠ” íŠ¹ì§•ì´ ìˆë‹¤.
 		System.out.printf("%#X ^ %#X ^ %#X = %#X %s%n", x, y, y, x^y^y, toBinaryString(x^y^y));		// x
 		System.out.printf("%#X ^ %#X ^ %#X = %#X %s%n", x, y, x, x^y^x, toBinaryString(x^y^x));		// y
 	}
 
-	// ¾Æ·¡ ¸Å¼­µå´Â ÃßÈÄ¿¡ ÀÌÇØÇÏ±â·Î ÇÑ´Ù
-	// 10Áø Á¤¼ö¸¦ 2Áø¼ö·Î º¯È¯ÇÏ´Â ¸Ş¼­µå
+	// ì•„ë˜ ë§¤ì„œë“œëŠ” ì¶”í›„ì— ì´í•´í•˜ê¸°ë¡œ í•œë‹¤
+	// 10ì§„ ì •ìˆ˜ë¥¼ 2ì§„ìˆ˜ë¡œ ë³€í™˜í•˜ëŠ” ë©”ì„œë“œ
 	static String toBinaryString(int x) {
 		String zero = "00000000000000000000000000000000";
 		String tmp = zero + Integer.toBinaryString(x);

@@ -1,4 +1,4 @@
-package StandardProcedureOfJava.ch4;
+ï»¿package StandardProcedureOfJava.ch4;
 
 public class ch4_FlowEx19 {
 
@@ -7,10 +7,10 @@ public class ch4_FlowEx19 {
 			for(int j=1;j<=3;j++)
 				for(int k=1;k<=3;k++)
 					System.out.println(""+i+j+k);
-	}	// mainÀÇ ³¡
+	}	// mainì˜ ë
 }
 
-/* ¾Õ¿¡¼­ºÎÅÍ ¿¬»êÀÌ µÇ±â¶§¹®¿¡ String Çü½ÄÀ¸·Î º¯È¯µÈ´Ù.
+/* ì•žì—ì„œë¶€í„° ì—°ì‚°ì´ ë˜ê¸°ë•Œë¬¸ì— String í˜•ì‹ìœ¼ë¡œ ë³€í™˜ëœë‹¤.
  * ""+i+j+j = "i"+j+k	
  * 			= "ij"+k
  * 			= "ijk"

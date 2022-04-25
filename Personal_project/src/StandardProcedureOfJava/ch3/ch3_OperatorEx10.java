@@ -1,4 +1,4 @@
-package StandardProcedureOfJava.ch3;
+ï»¿package StandardProcedureOfJava.ch3;
 
 public class ch3_OperatorEx10 {
 
@@ -15,9 +15,9 @@ public class ch3_OperatorEx10 {
 }
 
 /*
- result1ÀÇ °æ¿ì
+ result1ì˜ ê²½ìš°
  1000000 * 1000000 / 1000000
-=-727379968 / 1000000			// ÀÚ·áÇüÀÌ intÀÌ±â ¶§¹®¿¡ ¿À¹öÇÃ·Î¿ì°¡ ¹ß»ıÇÑ Ã¤·Î °è»êÇÑ´Ù!!
+=-727379968 / 1000000			// ìë£Œí˜•ì´ intì´ê¸° ë•Œë¬¸ì— ì˜¤ë²„í”Œë¡œìš°ê°€ ë°œìƒí•œ ì±„ë¡œ ê³„ì‚°í•œë‹¤!!
 =-727
 
  */

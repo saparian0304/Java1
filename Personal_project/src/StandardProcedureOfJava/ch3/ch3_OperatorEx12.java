@@ -1,11 +1,11 @@
-package StandardProcedureOfJava.ch3;
+ï»¿package StandardProcedureOfJava.ch3;
 
 public class ch3_OperatorEx12 {
 
 	public static void main(String[] args) {
 		char c1 = 'a';			// c1 = 97
 		char c2 = c1;			// c2 = 97
-		char c3 = ' ';			// c3¸¦ °ø¹éÀ¸·Î ÃÊ±âÈ­ ÇÑ´Ù.
+		char c3 = ' ';			// c3ë¥¼ ê³µë°±ìœ¼ë¡œ ì´ˆê¸°í™” í•œë‹¤.
 		
 		int i = c1 + 1;			// 'a' + 1 -> 97 + 1 -> 98
 		

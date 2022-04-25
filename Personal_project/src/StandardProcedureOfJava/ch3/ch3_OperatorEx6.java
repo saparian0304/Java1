@@ -1,11 +1,11 @@
-package StandardProcedureOfJava.ch3;
+ï»¿package StandardProcedureOfJava.ch3;
 
 public class ch3_OperatorEx6 {
 
 	public static void main(String[] args) {
 		byte a = 10;
 		byte b = 20;
-		byte c = (byte) (a + b); 		// JVMÀº 4byte(int)´ÜÀ§·Î º¯È¯ÇÏ¿© °è»êÇÏ±â ¶§¹®¿¡ ¸í½ÃÀûÀÎ Çüº¯È¯À» ÇØÁà¾ßÇÑ´Ù. (byte)(a+b);
+		byte c = (byte) (a + b); 		// JVMì€ 4byte(int)ë‹¨ìœ„ë¡œ ë³€í™˜í•˜ì—¬ ê³„ì‚°í•˜ê¸° ë•Œë¬¸ì— ëª…ì‹œì ì¸ í˜•ë³€í™˜ì„ í•´ì¤˜ì•¼í•œë‹¤. (byte)(a+b);
 		System.out.println(c);
 
 	}

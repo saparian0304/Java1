@@ -1,4 +1,4 @@
-package StandardProcedureOfJava.ch3;
+ï»¿package StandardProcedureOfJava.ch3;
 
 public class ch3_OperatorEx15 {
 
@@ -8,5 +8,5 @@ public class ch3_OperatorEx15 {
 		System.out.println(upperCase);
 	}
 }
-// ´ë¹®ÀÚ¿Í ¼Ò¹®ÀÚÀÇ ÄÚµå°ªÀÇ Â÷ÀÌ´Â 32ÀÌ´Ù.
-// charÇü°ú intÇüÀÇ ¿¬»ê°á°ú´Â intÇüÀÌ¹Ç·Î´Ù½Ã Çüº¯È¯À» ÇØÁà¾ßÇÑ´Ù.
+// ëŒ€ë¬¸ìì™€ ì†Œë¬¸ìì˜ ì½”ë“œê°’ì˜ ì°¨ì´ëŠ” 32ì´ë‹¤.
+// charí˜•ê³¼ intí˜•ì˜ ì—°ì‚°ê²°ê³¼ëŠ” intí˜•ì´ë¯€ë¡œë‹¤ì‹œ í˜•ë³€í™˜ì„ í•´ì¤˜ì•¼í•œë‹¤.

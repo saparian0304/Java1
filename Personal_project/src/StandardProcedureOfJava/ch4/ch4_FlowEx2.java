@@ -1,4 +1,4 @@
-package StandardProcedureOfJava.ch4;
+ï»¿package StandardProcedureOfJava.ch4;
 
 import java.util.Scanner;
 
@@ -7,17 +7,17 @@ public class ch4_FlowEx2 {
 	public static void main(String[] args) {
 		int input;
 		
-		System.out.println("¼ıÀÚ¸¦ ÇÏ³ª ÀÔ·ÂÇÏ¼¼¿ä.>");
+		System.out.println("ìˆ«ìë¥¼ í•˜ë‚˜ ì…ë ¥í•˜ì„¸ìš”.>");
 		
 		Scanner scanner = new Scanner(System.in);
-		String tmp = scanner.nextLine();	// È­¸éÀ» ÅëÇØ ÀÔ·Â¹ŞÀº ³»¿ëÀ» tmp¿¡ ÀúÀå
-		input = Integer.parseInt(tmp);		// ÀÔ·Â¹ŞÀº ¹®ÀÚ¿­(tmp)À» ¼ıÀÚ·Î º¯È¯
+		String tmp = scanner.nextLine();	// í™”ë©´ì„ í†µí•´ ì…ë ¥ë°›ì€ ë‚´ìš©ì„ tmpì— ì €ì¥
+		input = Integer.parseInt(tmp);		// ì…ë ¥ë°›ì€ ë¬¸ìì—´(tmp)ì„ ìˆ«ìë¡œ ë³€í™˜
 		
 		if(input==0) {
-			System.out.println("ÀÔ·ÂÇÏ½Å ¼ıÀÚ´Â 0ÀÔ´Ï´Ù");
+			System.out.println("ì…ë ¥í•˜ì‹  ìˆ«ìëŠ” 0ì…ë‹ˆë‹¤");
 		}
 		if(input!=0)
-			System.out.println("ÀÔ·ÂÇÏ½Å ¼ıÀÚ´Â 0ÀÌ ¾Æ´Õ´Ï´Ù");
-			System.out.printf("ÀÔ·ÂÇÏ½Å ¼ıÀÚ´Â %dÀÔ´Ï´Ù.", input);	// {}ÀÌ ¾ø¾î¼­ if¹®¿¡ ¼ÓÇØÀÖÁö ¾Ê´Â´Ù
-	}	// mainÀÇ ³¡
+			System.out.println("ì…ë ¥í•˜ì‹  ìˆ«ìëŠ” 0ì´ ì•„ë‹™ë‹ˆë‹¤");
+			System.out.printf("ì…ë ¥í•˜ì‹  ìˆ«ìëŠ” %dì…ë‹ˆë‹¤.", input);	// {}ì´ ì—†ì–´ì„œ ifë¬¸ì— ì†í•´ìˆì§€ ì•ŠëŠ”ë‹¤
+	}	// mainì˜ ë
 }

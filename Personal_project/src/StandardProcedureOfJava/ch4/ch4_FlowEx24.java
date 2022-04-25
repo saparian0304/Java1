@@ -1,11 +1,11 @@
-package StandardProcedureOfJava.ch4;
+﻿package StandardProcedureOfJava.ch4;
 
 public class ch4_FlowEx24 {
-	// ī��Ʈ �ٿ�
+	// 카운트 다운
 	public static void main(String[] args) {
 		int i=11;
 		
-		System.out.println("ī��Ʈ �ٿ��� �����մϴ�.");
+		System.out.println("카운트 다운을 시작합니다.");
 		
 		while(i--!=0) {
 			System.out.println(i);
@@ -15,10 +15,10 @@ public class ch4_FlowEx24 {
 			}
 		}
 		System.out.println("GAME OVER");
-	}	// main�� ��
+	}	// main의 끝
 }
 
-// for���� ���ǽ� => int Ÿ��
-//  			ī��Ʈ�ٿ��� �ʹ� ������ -> intŸ�� �ִ���ڿ��� �Ұ���
-//				long�̳� double������ �ٲ㼭 ī��Ʈ�ٿ���
+// for문의 조건식 => int 타입
+//  			카운트다운이 너무 빨라짐 -> int타입 최대숫자여도 불가능
+//				long이나 double형으로 바꿔서 카운트다운함
 

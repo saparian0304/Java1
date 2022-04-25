@@ -1,4 +1,4 @@
-package StandardProcedureOfJava.ch4;
+ï»¿package StandardProcedureOfJava.ch4;
 
 import java.util.Scanner;
 
@@ -7,24 +7,24 @@ public class ch4_FlowEx27 {
 	public static void main(String[] args) {
 		int num;
 		int sum = 0;
-		boolean flag = true;	// while¹®ÀÇ Á¶°Ç½ÄÀ¸·Î »ç¿ëÇÒ º¯¼ö
+		boolean flag = true;	// whileë¬¸ì˜ ì¡°ê±´ì‹ìœ¼ë¡œ ì‚¬ìš©í•  ë³€ìˆ˜
 		Scanner scanner = new Scanner(System.in);
 		
-		System.out.println("ÇÕ°è¸¦ ±¸ÇÒ ¼ıÀÚ¸¦ ÀÔ·ÂÇÏ¼¼¿ä.(³¡³»·Á¸é 0À» ÀÔ·Â)");
+		System.out.println("í•©ê³„ë¥¼ êµ¬í•  ìˆ«ìë¥¼ ì…ë ¥í•˜ì„¸ìš”.(ëë‚´ë ¤ë©´ 0ì„ ì…ë ¥)");
 		
-		while(flag) {	// flagÀÇ °ªÀÌ trueÀÌ¹Ç·Î Á¶°Ç½ÄÀº ÂüÀÌ µÈ´Ù.
+		while(flag) {	// flagì˜ ê°’ì´ trueì´ë¯€ë¡œ ì¡°ê±´ì‹ì€ ì°¸ì´ ëœë‹¤.
 			System.out.print(">>");
 			
 			String tmp = scanner.nextLine();
 			num = Integer.parseInt(tmp);
 			
-			if(num!=0) {	// numÀÌ 0ÀÌ ¾Æ´Ï¸é, sum¿¡ ´õÇÑ´Ù.
+			if(num!=0) {	// numì´ 0ì´ ì•„ë‹ˆë©´, sumì— ë”í•œë‹¤.
 				sum += num;
-			} else {		// numÀÌ 0ÀÌ¸é, flagÀÇ °ªÀ» false·Î º¯°æ.
+			} else {		// numì´ 0ì´ë©´, flagì˜ ê°’ì„ falseë¡œ ë³€ê²½.
 				flag = false;
 			}
-		} // while¹®ÀÇ ³¡
+		} // whileë¬¸ì˜ ë
 		
-		System.out.println("ÇÕ°è : "+sum);
-	}	// mainÀÇ ³¡
+		System.out.println("í•©ê³„ : "+sum);
+	}	// mainì˜ ë
 }

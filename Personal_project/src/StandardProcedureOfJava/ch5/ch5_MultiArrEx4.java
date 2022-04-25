@@ -1,4 +1,4 @@
-package StandardProcedureOfJava.ch5;
+ï»¿package StandardProcedureOfJava.ch5;
 
 import java.util.Scanner;
 
@@ -6,24 +6,24 @@ public class ch5_MultiArrEx4 {
 
 	public static void main(String[] args) {
 		String[][] words = {
-				{"chair", "ÀÇÀÚ"},
-				{"computer", "ÄÄÇ»ÅÍ"},
-				{"integer", "Á¤¼ö"}
+				{"chair", "ì˜ì"},
+				{"computer", "ì»´í“¨í„°"},
+				{"integer", "ì •ìˆ˜"}
 		};
 		
 		Scanner scanner = new Scanner(System.in);
 		
 		for(int i=0; i<words.length; i++) {
-			System.out.printf("Q%d. %sÀÇ ¶æÀº?", i+1, words[i][0]);
+			System.out.printf("Q%d. %sì˜ ëœ»ì€?", i+1, words[i][0]);
 			
 			String tmp = scanner.nextLine();
 			
 			if(tmp.equals(words[i][1])) {
-				System.out.printf("Á¤´äÀÔ´Ï´Ù. %n%n");
+				System.out.printf("ì •ë‹µì…ë‹ˆë‹¤. %n%n");
 			} else {
-				System.out.printf("Æ²·È½À´Ï´Ù. Á¤´äÀº %sÀÔ´Ï´Ù. %n%n", words[i][1]);
+				System.out.printf("í‹€ë ¸ìŠµë‹ˆë‹¤. ì •ë‹µì€ %sì…ë‹ˆë‹¤. %n%n", words[i][1]);
 			}
 		} // for
 
-	}	// mainÀÇ ³¡
+	}	// mainì˜ ë
 }

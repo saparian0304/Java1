@@ -1,12 +1,12 @@
-package StandardProcedureOfJava.ch3;
+ï»¿package StandardProcedureOfJava.ch3;
 
 public class ch3_OperatorEx13 {
 
 	public static void main(String[] args) {
 		char c1 = 'a';
 		
-	//	char c2 = c1+1;		// ÄÄÆÄÀÏ ¿¡·¯ ¹ß»ı! (ÇÇ¿¬»êÀÚ¿¡ º¯¼ö°¡ µé¾î°¡ ÀÖÀ½)
-		char c2 = 'a'+1;	// ÄÄÆÄÀÏ ¿¡·¯ ¾øÀ½ (¸®ÅÍ·²°ú »ó¼ö°£ÀÇ ¿¬»êÀÌ±â¶§¹®)
+	//	char c2 = c1+1;		// ì»´íŒŒì¼ ì—ëŸ¬ ë°œìƒ! (í”¼ì—°ì‚°ìì— ë³€ìˆ˜ê°€ ë“¤ì–´ê°€ ìˆìŒ)
+		char c2 = 'a'+1;	// ì»´íŒŒì¼ ì—ëŸ¬ ì—†ìŒ (ë¦¬í„°ëŸ´ê³¼ ìƒìˆ˜ê°„ì˜ ì—°ì‚°ì´ê¸°ë•Œë¬¸)
 		
 		System.out.println(c2);
 

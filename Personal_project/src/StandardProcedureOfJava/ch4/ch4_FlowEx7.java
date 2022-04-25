@@ -1,32 +1,32 @@
-package StandardProcedureOfJava.ch4;
+ï»¿package StandardProcedureOfJava.ch4;
 
 import java.util.Scanner;
 
 public class ch4_FlowEx7 {
 
 	public static void main(String[] args) {
-		System.out.print("°¡À§(1), ¹ÙÀ§(2), º¸(3) Áß ÇÏ³ª¸¦ ÀÔ·ÂÇÏ¼¼¿ä.>");
+		System.out.print("ê°€ìœ„(1), ë°”ìœ„(2), ë³´(3) ì¤‘ í•˜ë‚˜ë¥¼ ì…ë ¥í•˜ì„¸ìš”.>");
 		
 		Scanner scanner = new Scanner(System.in);
-		int user = scanner.nextInt();			// È­¸éÀ» ÅëÇØ ÀÔ·Â¹ŞÀº ¼ıÀÚ¸¦ user¿¡ ÀúÀå
-		int com = (int)(Math.random()*3) + 1; 	// 1,2,3 Áß ÇÏ³ª°¡ com¿¡ ÀúÀåµÊ
+		int user = scanner.nextInt();			// í™”ë©´ì„ í†µí•´ ì…ë ¥ë°›ì€ ìˆ«ìë¥¼ userì— ì €ì¥
+		int com = (int)(Math.random()*3) + 1; 	// 1,2,3 ì¤‘ í•˜ë‚˜ê°€ comì— ì €ì¥ë¨
 		
-		System.out.println("´ç½ÅÀº " + user + "ÀÔ´Ï´Ù.");
-		System.out.println("ÄÄÀº " + com + "ÀÔ´Ï´Ù.");
+		System.out.println("ë‹¹ì‹ ì€ " + user + "ì…ë‹ˆë‹¤.");
+		System.out.println("ì»´ì€ " + com + "ì…ë‹ˆë‹¤.");
 		
 		switch (user - com) {
 			case -1: case 2:
-				System.out.println("´ç½ÅÀÌ Á³½À´Ï´Ù");
+				System.out.println("ë‹¹ì‹ ì´ ì¡ŒìŠµë‹ˆë‹¤");
 				break;
 			case 1: case -2:
-				System.out.println("´ç½ÅÀÌ ÀÌ°å½À´Ï´Ù");
+				System.out.println("ë‹¹ì‹ ì´ ì´ê²¼ìŠµë‹ˆë‹¤");
 				break;
 			case 0:
-				System.out.println("ºñ°å½À´Ï´Ù");
-//				break;				// ¸¶Áö¸· ¹®ÀåÀÌ¹Ç·Î break¸¦ »ç¿ëÇÒ ÇÊ¿ä´Â ¾ø´Ù.
+				System.out.println("ë¹„ê²¼ìŠµë‹ˆë‹¤");
+//				break;				// ë§ˆì§€ë§‰ ë¬¸ì¥ì´ë¯€ë¡œ breakë¥¼ ì‚¬ìš©í•  í•„ìš”ëŠ” ì—†ë‹¤.
 		}
-	} // mainÀÇ ³¡
+	} // mainì˜ ë
 }
 
 // Math.random()
-// 0~1 »çÀÌ¿¡ ÇÏ³ªÀÇ double °ªÀ» ¹İÈ¯ÇÑ´Ù.
+// 0~1 ì‚¬ì´ì— í•˜ë‚˜ì˜ double ê°’ì„ ë°˜í™˜í•œë‹¤.

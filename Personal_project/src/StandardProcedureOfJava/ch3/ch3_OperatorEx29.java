@@ -1,27 +1,27 @@
-package StandardProcedureOfJava.ch3;
+ï»¿package StandardProcedureOfJava.ch3;
 
 public class ch3_OperatorEx29 {
 
-	// ºñÆ®¿¬»êÀÚ '~' : 0Àº 1·Î, 1Àº 0À¸·Î ¹Ù²Û´Ù.
+	// ë¹„íŠ¸ì—°ì‚°ì '~' : 0ì€ 1ë¡œ, 1ì€ 0ìœ¼ë¡œ ë°”ê¾¼ë‹¤.
 	public static void main(String[] args) {
 		byte p = 10;
 		byte n = -10;
 		
 		System.out.printf(" p  =%d \t%s%n",  p,   toBinaryString(p));
-		// 1ÀÇ º¸¼ö °ü°è
+		// 1ì˜ ë³´ìˆ˜ ê´€ê³„
 		System.out.printf("~p  =%d \t%s%n", ~p,   toBinaryString(~p));
-		// ¾çÀÇÁ¤¼ö¸¦ À½ÀÇ Á¤¼ö·Î ¹Ù²Ù°í ½ÍÀ»¶§
+		// ì–‘ì˜ì •ìˆ˜ë¥¼ ìŒì˜ ì •ìˆ˜ë¡œ ë°”ê¾¸ê³  ì‹¶ì„ë•Œ
 		System.out.printf("~p+1=%d \t%s%n", ~p+1, toBinaryString(~p+1));
 		System.out.printf("~~p =%d \t%s%n", ~~p, toBinaryString(~~p));
 		System.out.println();
 		
-		// À½ÀÇÁ¤¼ö¸¦ ¾çÀÇÁ¤¼ö·Î ¹Ù²Ù°í ½ÍÀ»¶§
+		// ìŒì˜ì •ìˆ˜ë¥¼ ì–‘ì˜ì •ìˆ˜ë¡œ ë°”ê¾¸ê³  ì‹¶ì„ë•Œ
 		System.out.printf(" n  =%d%n", n);
 		System.out.printf("~(n-1)=%d%n", ~(n-1));
 		
 	}	
 	
-	// 10Áø Á¤¼ö¸¦ 2Áø¼ö·Î º¯È¯ÇÏ´Â ¸Ş¼­µå
+	// 10ì§„ ì •ìˆ˜ë¥¼ 2ì§„ìˆ˜ë¡œ ë³€í™˜í•˜ëŠ” ë©”ì„œë“œ
 	static String toBinaryString(int x) {
 		String zero = "00000000000000000000000000000000";
 		String tmp = zero + Integer.toBinaryString(x);

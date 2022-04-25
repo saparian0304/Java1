@@ -1,4 +1,4 @@
-package StandardProcedureOfJava.ch3;
+ï»¿package StandardProcedureOfJava.ch3;
 
 public class ch3_OperatorEx7 {
 
@@ -7,7 +7,7 @@ public class ch3_OperatorEx7 {
 		byte b = 30;
 		byte c = (byte)(a * b);
 		System.out.println(c);
-		// 300ÀÌ Ãâ·ÂµÇ¾î¾ßÇÏÁö¸¸ byte ÀÚ·áÇü(1 byte)´Â Ç¥ÇöÇÒ ¼ö ¾ø´Â ¹üÀ§ÀÌ±â¶§¹®¿¡ °ªÀÇ ¼Õ½ÇÀÌ ÀÏ¾î³­´Ù
+		// 300ì´ ì¶œë ¥ë˜ì–´ì•¼í•˜ì§€ë§Œ byte ìë£Œí˜•(1 byte)ëŠ” í‘œí˜„í•  ìˆ˜ ì—†ëŠ” ë²”ìœ„ì´ê¸°ë•Œë¬¸ì— ê°’ì˜ ì†ì‹¤ì´ ì¼ì–´ë‚œë‹¤
 
 	}
 

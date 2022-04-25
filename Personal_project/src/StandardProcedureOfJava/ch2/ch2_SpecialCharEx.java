@@ -1,12 +1,12 @@
-package StandardProcedureOfJava.ch2;
+ï»¿package StandardProcedureOfJava.ch2;
 
 public class ch2_SpecialCharEx {
 
 	public static void main(String[] args) {
-		System.out.println('\''); 				// '''·Î´Â Ç¥ÇöÇÒ ¼ö ¾ø´Ù.
-		System.out.println("abc\t123\b456");	// \b¿¡ ÀÇÇØ 3ÀÌ Áö¿öÁø´Ù. (ÀÌÅ¬¸³½º¿¡¼­´Â ¾ÈµÈ´Ù)
-		System.out.println('\n');				// °³Çà¹®ÀÚ \n
-		System.out.println("\"Hello\"");		// Å« µû¿ÈÇ¥¸¦ Ãâ·ÂÇÏ±â À§ÇÔ
-		System.out.println("c:\\");				// ¿ª½½·¡½¬¸¦ Ç¥ÇöÇÏ±â À§ÇÔ
+		System.out.println('\''); 				// '''ë¡œëŠ” í‘œí˜„í•  ìˆ˜ ì—†ë‹¤.
+		System.out.println("abc\t123\b456");	// \bì— ì˜í•´ 3ì´ ì§€ì›Œì§„ë‹¤. (ì´í´ë¦½ìŠ¤ì—ì„œëŠ” ì•ˆëœë‹¤)
+		System.out.println('\n');				// ê°œí–‰ë¬¸ì \n
+		System.out.println("\"Hello\"");		// í° ë”°ì˜´í‘œë¥¼ ì¶œë ¥í•˜ê¸° ìœ„í•¨
+		System.out.println("c:\\");				// ì—­ìŠ¬ë˜ì‰¬ë¥¼ í‘œí˜„í•˜ê¸° ìœ„í•¨
 	}
 }

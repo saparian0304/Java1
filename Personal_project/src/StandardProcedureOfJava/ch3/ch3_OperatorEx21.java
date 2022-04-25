@@ -1,4 +1,4 @@
-package StandardProcedureOfJava.ch3;
+ï»¿package StandardProcedureOfJava.ch3;
 
 public class ch3_OperatorEx21 {
 
@@ -11,7 +11,7 @@ public class ch3_OperatorEx21 {
 		}
 }
 /*
-System.out.printf("10 == 10.0f	\t %b%n", 10 == 10.0f);		// true, ÀÚ·áÇüÀÇ ¹üÀ§°¡ Å«ÂÊÀ¸·Î Çüº¯È¯À» ÇØ¼­ ¿¬»êÇÑ´Ù
+System.out.printf("10 == 10.0f	\t %b%n", 10 == 10.0f);		// true, ìžë£Œí˜•ì˜ ë²”ìœ„ê°€ í°ìª½ìœ¼ë¡œ í˜•ë³€í™˜ì„ í•´ì„œ ì—°ì‚°í•œë‹¤
 System.out.printf("'0'== 0		\t %b%n", '0'== 0);			// false, 48 == 0;
 System.out.printf("'A'== 65	\t %b%n", 'A'== 65);			// true, 65 == 65;
 System.out.printf("'A' > 'B'	\t %b%n", 'A' > 'B');		// false, 65 > 66;

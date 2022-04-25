@@ -1,7 +1,7 @@
-package StandardProcedureOfJava.ch5;
+ï»¿package StandardProcedureOfJava.ch5;
 
 public class ch5_ArrayEx18 {
-	// 2Â÷¿ø ¹è¿­
+	// 2ì°¨ì› ë°°ì—´
 	public static void main(String[] args) {
 		int[][] score = {
 				{ 100, 100, 100}
@@ -23,5 +23,5 @@ public class ch5_ArrayEx18 {
 			}
 		}
 		System.out.println("sum="+sum);
-	}	// mainÀÇ ³¡
+	}	// mainì˜ ë
 }

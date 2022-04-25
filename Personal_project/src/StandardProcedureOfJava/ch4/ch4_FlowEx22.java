@@ -1,27 +1,27 @@
-package StandardProcedureOfJava.ch4;
+ï»¿package StandardProcedureOfJava.ch4;
 
 public class ch4_FlowEx22 {
-	// Çâ»óµÈ for¹®
+	// í–¥ìƒëœ forë¬¸
 	public static void main(String[] args) {
 		int[] arr = {10,20,30,40,50};
 		int sum = 0;
 		
-		// ±âÁ¸¹æ½Ä
+		// ê¸°ì¡´ë°©ì‹
 		for(int i=0;i<arr.length;i++)
 			System.out.printf("%d ", arr[i]);
 		System.out.println();
 		
-		// »õ·Î¿î ¹æ½Ä => ÆÄÀÌ½ã ¹İº¹¹®°ú À¯»çÇÏ´Ù.
+		// ìƒˆë¡œìš´ ë°©ì‹ => íŒŒì´ì¬ ë°˜ë³µë¬¸ê³¼ ìœ ì‚¬í•˜ë‹¤.
 		for(int tmp : arr) {
 			System.out.printf("%d ", tmp);
 			sum += tmp;
 		}
 		System.out.println();
 		System.out.println("sum="+sum);
-	}	// mainÀÇ ³¡
+	}	// mainì˜ ë
 }
 
 
 /*
- * for(Å¸ÀÔ º¯¼ö¸í : ¹è¿­ ¶Ç´Â ÄÃ·º¼Ç) {¹İº¹ÇÒ ¹®Àå}
+ * for(íƒ€ì… ë³€ìˆ˜ëª… : ë°°ì—´ ë˜ëŠ” ì»¬ë ‰ì…˜) {ë°˜ë³µí•  ë¬¸ì¥}
  */

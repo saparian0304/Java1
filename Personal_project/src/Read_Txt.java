@@ -1,4 +1,4 @@
-import java.io.BufferedReader;
+ï»¿import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -8,13 +8,13 @@ import java.util.Scanner;
 public class Read_Txt {
 
 	public static void main(String[] args) throws IOException {
-		// ÀÔ·ÂÀ» ¹Ş´Âµ¥ »ç¿ëÇÏ´Â Å¬·¡½º
+		// ì…ë ¥ì„ ë°›ëŠ”ë° ì‚¬ìš©í•˜ëŠ” í´ë˜ìŠ¤
 		Scanner scanner = new Scanner(System.in); 
 		
-		System.out.printf("ÀĞÀ» ¼º°æÃ¥ÀÇ ¾àÀÚ¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
+		System.out.printf("ì½ì„ ì„±ê²½ì±…ì˜ ì•½ìë¥¼ ì…ë ¥í•˜ì„¸ìš” : ");
 		String name = scanner.nextLine();
 		
-		System.out.printf("¿øÇÏ´Â ÀåÀ» ÀÔ·ÂÇÏ¼¼¿ä : ");
+		System.out.printf("ì›í•˜ëŠ” ì¥ì„ ì…ë ¥í•˜ì„¸ìš” : ");
 		int chapter = Integer.parseInt(scanner.nextLine());
 		
 		int verse = 1;
@@ -24,7 +24,7 @@ public class Read_Txt {
 		File file = new File("./bible.txt");
 		File file_en = new File(String.format(pathBible, name));
 		
-		// txt ÆÄÀÏÀ» ÀĞ´Âµ¥ »ç¿ëÇÒ Å¬·¡½º
+		// txt íŒŒì¼ì„ ì½ëŠ”ë° ì‚¬ìš©í•  í´ë˜ìŠ¤
 		BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(file),"EUC_KR"));
 		BufferedReader br_en = new BufferedReader(new InputStreamReader(new FileInputStream(file_en),"EUC_KR"));
 		
@@ -50,9 +50,9 @@ public class Read_Txt {
 	        System.out.printf(line_en.substring(s_chap.length()+ s_verse.length() + 2) + "%n");
 	        String inputTxt = scanner.nextLine();
 			
-	        // ÀÔ·Â°ªÀÌ ¸Â¾Ò´ÂÁö È®ÀÎ
+	        // ì…ë ¥ê°’ì´ ë§ì•˜ëŠ”ì§€ í™•ì¸
 	        while (line_en.substring(s_chap.length()+ s_verse.length() + 2).equals(inputTxt) == false) {
-	        	System.out.println("Æ²·È½À´Ï´Ù.");
+	        	System.out.println("í‹€ë ¸ìŠµë‹ˆë‹¤.");
 	        	System.out.printf(line.substring(name.length()+s_chap.length()+s_verse.length() + 2) + "%n");
 	        	System.out.printf(line_en.substring(s_chap.length()+ s_verse.length() + 2) + "%n");
 	        	inputTxt = scanner.nextLine();

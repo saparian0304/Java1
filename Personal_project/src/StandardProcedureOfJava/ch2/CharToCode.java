@@ -1,16 +1,16 @@
-package StandardProcedureOfJava.ch2;
+ï»¿package StandardProcedureOfJava.ch2;
 
 public class CharToCode {
 
 	public static void main(String[] args) {
-		char ch = 'A'; // char ch = 65, ¹®ÀÚ¸¦ À¯´ÏÄÚµå ÇüÅÂ·Î ÀúÀå. (Á¤¼öÀÌÁö¸¸ ¹®ÀÚÅ¸ÀÔÀº char)
-		int code = (int)ch; // ch¿¡ ÀúÀåµÈ °ªÀ» int Å¸ÀÔÀ¸·Î º¯È¯ÇÏ¿© ÀúÀå
+		char ch = 'A'; // char ch = 65, ë¬¸ìë¥¼ ìœ ë‹ˆì½”ë“œ í˜•íƒœë¡œ ì €ì¥. (ì •ìˆ˜ì´ì§€ë§Œ ë¬¸ìíƒ€ì…ì€ char)
+		int code = (int)ch; // chì— ì €ì¥ëœ ê°’ì„ int íƒ€ì…ìœ¼ë¡œ ë³€í™˜í•˜ì—¬ ì €ì¥
 		
-		System.out.printf("%c = %d (%#X) %n", ch, code, code); // %c : char, %d : Á¤¼ö, %X´Â 16Áø¼ö(#ÀÌ ÀÖÀ¸¸é Á¢µÎ»ç '0x'°¡ ³ª¿È), %n : ÁÙ¹Ù²Ş
+		System.out.printf("%c = %d (%#X) %n", ch, code, code); // %c : char, %d : ì •ìˆ˜, %XëŠ” 16ì§„ìˆ˜(#ì´ ìˆìœ¼ë©´ ì ‘ë‘ì‚¬ '0x'ê°€ ë‚˜ì˜´), %n : ì¤„ë°”ê¿ˆ
 		
-		char hch = '°¡'; // char hch = 0xAC00
+		char hch = 'ê°€'; // char hch = 0xAC00
 		System.out.printf("%c = %d (%#X) %n", hch, (int)hch, (int)hch);
-		// %X (´ë¹®ÀÚ) : Ãâ·Âµµ ´ë¹®ÀÚ·Î Ãâ·Â, %x (¼Ò¹®ÀÚ) : Ãâ·Âµµ ¼Ò¹®ÀÚ·Î Ãâ·Â
+		// %X (ëŒ€ë¬¸ì) : ì¶œë ¥ë„ ëŒ€ë¬¸ìë¡œ ì¶œë ¥, %x (ì†Œë¬¸ì) : ì¶œë ¥ë„ ì†Œë¬¸ìë¡œ ì¶œë ¥
 
 	}
 

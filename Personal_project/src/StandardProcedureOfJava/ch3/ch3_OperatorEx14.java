@@ -1,23 +1,23 @@
-package StandardProcedureOfJava.ch3;
+ï»¿package StandardProcedureOfJava.ch3;
 
 public class ch3_OperatorEx14 {
 
 	public static void main(String[] args) {
 		char c = 'a';
-		for(int i=0; i<26; i++) {		// ºí·° {} ¾ÈÀÇ ¹®ÀåÀ» 26¹ø ¹Ýº¹ÇÑ´Ù.
-			System.out.print(c++);		// 'a'ºÎÅÍ 26°³ÀÇ ¹®ÀÚ¸¦ Ãâ·ÂÇÑ´Ù.
+		for(int i=0; i<26; i++) {		// ë¸”ëŸ­ {} ì•ˆì˜ ë¬¸ìž¥ì„ 26ë²ˆ ë°˜ë³µí•œë‹¤.
+			System.out.print(c++);		// 'a'ë¶€í„° 26ê°œì˜ ë¬¸ìžë¥¼ ì¶œë ¥í•œë‹¤.
 		}
 		System.out.println();
 		
 		c = 'A';
-		for(int i=0; i<26; i++) {		// ºí·° {} ¾ÈÀÇ ¹®ÀåÀ» 26¹ø ¹Ýº¹ÇÑ´Ù.
-			System.out.print(c++);		// 'A'ºÎÅÍ 26°³ÀÇ ¹®ÀÚ¸¦ Ãâ·ÂÇÑ´Ù.
+		for(int i=0; i<26; i++) {		// ë¸”ëŸ­ {} ì•ˆì˜ ë¬¸ìž¥ì„ 26ë²ˆ ë°˜ë³µí•œë‹¤.
+			System.out.print(c++);		// 'A'ë¶€í„° 26ê°œì˜ ë¬¸ìžë¥¼ ì¶œë ¥í•œë‹¤.
 		}
 		System.out.println();
 		
 		c = '0';
-		for(int i=0; i<10; i++) {		// ºí·° {} ¾ÈÀÇ ¹®ÀåÀ» 26¹ø ¹Ýº¹ÇÑ´Ù.
-			System.out.print(c++);		// '0'ºÎÅÍ 10°³ÀÇ ¹®ÀÚ¸¦ Ãâ·ÂÇÑ´Ù.
+		for(int i=0; i<10; i++) {		// ë¸”ëŸ­ {} ì•ˆì˜ ë¬¸ìž¥ì„ 26ë²ˆ ë°˜ë³µí•œë‹¤.
+			System.out.print(c++);		// '0'ë¶€í„° 10ê°œì˜ ë¬¸ìžë¥¼ ì¶œë ¥í•œë‹¤.
 		}
 		System.out.println();
 	}

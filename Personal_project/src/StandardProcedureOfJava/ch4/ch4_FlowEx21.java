@@ -1,4 +1,4 @@
-package StandardProcedureOfJava.ch4;
+ï»¿package StandardProcedureOfJava.ch4;
 
 public class ch4_FlowEx21 {
 
@@ -13,5 +13,5 @@ public class ch4_FlowEx21 {
 			}
 			System.out.println();
 		}
-	}	// mainÀÇ ³¡
+	}	// mainì˜ ë
 }

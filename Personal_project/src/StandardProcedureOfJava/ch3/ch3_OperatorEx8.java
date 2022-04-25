@@ -1,10 +1,10 @@
-package StandardProcedureOfJava.ch3;
+ï»¿package StandardProcedureOfJava.ch3;
 
 public class ch3_OperatorEx8 {
 
 	public static void main(String[] args) {
-		int a = 1_000_000;		// 1,000,000 1¹é¸¸
-		int b = 2_000_000;		// 2,000,000 2¹é¸¸
+		int a = 1_000_000;		// 1,000,000 1ë°±ë§Œ
+		int b = 2_000_000;		// 2,000,000 2ë°±ë§Œ
 		
 		long c = a * b;			// a * b = 2,000,000,000,000 ?
 
@@ -13,4 +13,4 @@ public class ch3_OperatorEx8 {
 
 }
 
-// int * int ¿¡¼­ ¿À¹öÇÃ·Î¿ì°¡ ÀÏ¾î³²
+// int * int ì—ì„œ ì˜¤ë²„í”Œë¡œìš°ê°€ ì¼ì–´ë‚¨

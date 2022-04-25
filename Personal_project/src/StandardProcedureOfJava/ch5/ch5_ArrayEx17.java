@@ -1,4 +1,4 @@
-package StandardProcedureOfJava.ch5;
+ï»¿package StandardProcedureOfJava.ch5;
 
 public class ch5_ArrayEx17 {
 
@@ -27,8 +27,8 @@ public class ch5_ArrayEx17 {
 				result = num1 / num2;
 				break;
 			default:
-				System.out.println("Áö¿øµÇÁö¾Ê´Â ¿¬»êÀÔ´Ï´Ù.");
+				System.out.println("ì§€ì›ë˜ì§€ì•ŠëŠ” ì—°ì‚°ì…ë‹ˆë‹¤.");
 		}
-		System.out.println("°á°ú : " + result);
-	}	// mainÀÇ ³¡
+		System.out.println("ê²°ê³¼ : " + result);
+	}	// mainì˜ ë
 }

@@ -1,4 +1,4 @@
-package StandardProcedureOfJava.ch3;
+ï»¿package StandardProcedureOfJava.ch3;
 
 public class ch3_OperatorEx16 {
 
@@ -12,8 +12,8 @@ public class ch3_OperatorEx16 {
 /*
  (int)(pi*1000) / 1000f;
  (int)(3141.592f) / 1000f;
- 3141 / 1000f;		// ¹İ¿Ã¸²ÀÌ ¾Æ´Ñ ¹ö¸²ÀÌ ÀÏ¾î³­´Ù.
+ 3141 / 1000f;		// ë°˜ì˜¬ë¦¼ì´ ì•„ë‹Œ ë²„ë¦¼ì´ ì¼ì–´ë‚œë‹¤.
  3.141f
  
- ¹İ¿Ã¸²À» ÇÏ±âÀ§ÇØ¼± 0.5¸¦ ´õÇØÁÖ°Å³ª Math.round()¸Å¼Òµå¸¦ ÀÌ¿ëÇÑ´Ù.
+ ë°˜ì˜¬ë¦¼ì„ í•˜ê¸°ìœ„í•´ì„  0.5ë¥¼ ë”í•´ì£¼ê±°ë‚˜ Math.round()ë§¤ì†Œë“œë¥¼ ì´ìš©í•œë‹¤.
  */

@@ -1,4 +1,4 @@
-package StandardProcedureOfJava.ch4;
+ï»¿package StandardProcedureOfJava.ch4;
 
 import java.util.Scanner;
 
@@ -7,7 +7,7 @@ public class ch4_FlowEx17 {
 	public static void main(String[] args) {
 		int num = 0;
 		
-		System.out.print("*À» Ãâ·ÂÇÒ ¶óÀÎÀÇ ¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä.>");
+		System.out.print("*ì„ ì¶œë ¥í•  ë¼ì¸ì˜ ìˆ˜ë¥¼ ì…ë ¥í•˜ì„¸ìš”.>");
 		
 		Scanner scanner = new Scanner(System.in);
 		String tmp = scanner.nextLine();
@@ -19,5 +19,5 @@ public class ch4_FlowEx17 {
 			}
 			System.out.println();
 		}
-	}	//mainÀÇ ³¡
+	}	//mainì˜ ë
 }

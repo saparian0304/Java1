@@ -1,4 +1,4 @@
-package StandardProcedureOfJava.ch5;
+ï»¿package StandardProcedureOfJava.ch5;
 
 import java.util.Arrays;
 
@@ -12,14 +12,14 @@ public class ch5_ArrayEx2 {
 		char[] chArr = {'a', 'b', 'c', 'd'};
 		
 		for (int i=0; i<iArr1.length; i++) {
-			iArr1[i] = 1+i;	// 1~10ÀÇ ¼ýÀÚ¸¦ ¼ø¼­´ë·Î ¹è¿­¿¡ ³Ö´Â´Ù
+			iArr1[i] = 1+i;	// 1~10ì˜ ìˆ«ìžë¥¼ ìˆœì„œëŒ€ë¡œ ë°°ì—´ì— ë„£ëŠ”ë‹¤
 		}
 		
 		for (int i=0; i<iArr2.length; i++) {
-			iArr2[i] = (int)(Math.random() * 10) + 1;	// 1~10ÀÇ °ªÀ» ¹è¿­¿¡ ÀúÀå
+			iArr2[i] = (int)(Math.random() * 10) + 1;	// 1~10ì˜ ê°’ì„ ë°°ì—´ì— ì €ìž¥
 		}
 		
-		// ¹è¿­¿¡ ÀúÀåµÈ °ªµéÀ» Ãâ·ÂÇÑ´Ù
+		// ë°°ì—´ì— ì €ìž¥ëœ ê°’ë“¤ì„ ì¶œë ¥í•œë‹¤
 		for (int i=0; i<iArr1.length; i++) {
 			System.out.print(iArr1[i] + ",");
 		}
@@ -31,5 +31,5 @@ public class ch5_ArrayEx2 {
 		System.out.println(chArr);
 		
 
-	}	// mainÀÇ ³¡
+	}	// mainì˜ ë
 }

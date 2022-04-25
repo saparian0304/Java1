@@ -1,40 +1,40 @@
-package StandardProcedureOfJava.ch4;
+ï»¿package StandardProcedureOfJava.ch4;
 
 import java.util.Scanner;
 
 public class ch4_FlowEx11 {
-	// switch¹®ÀÇ ÁßÃ¸
+	// switchë¬¸ì˜ ì¤‘ì²©
 	public static void main(String[] args) {
-		System.out.print("´ç½ÅÀÇ ÁÖ¹Î¹øÈ£¸¦ ÀÔ·ÂÇÏ¼¼¿ä. (011231-1111222)>");
+		System.out.print("ë‹¹ì‹ ì˜ ì£¼ë¯¼ë²ˆí˜¸ë¥¼ ì…ë ¥í•˜ì„¸ìš”. (011231-1111222)>");
 		
 		Scanner scanner = new Scanner(System.in);
 		String regNo = scanner.nextLine();
-		char gender = regNo.charAt(7);	// ÀÔ·Â¹ŞÀº ¹øÈ£ÀÇ 8¹øÂ° ¹®ÀÚ¸¦ gender¿¡ ÀúÀå
+		char gender = regNo.charAt(7);	// ì…ë ¥ë°›ì€ ë²ˆí˜¸ì˜ 8ë²ˆì§¸ ë¬¸ìë¥¼ genderì— ì €ì¥
 		
 		switch(gender) {
 			case '1': case '3':
 				switch(gender) {
 					case '1':
-						System.out.println("´ç½ÅÀº 2000³â ÀÌÀü¿¡ Ãâ»ıÇÑ ³²ÀÚÀÔ´Ï´Ù.");
+						System.out.println("ë‹¹ì‹ ì€ 2000ë…„ ì´ì „ì— ì¶œìƒí•œ ë‚¨ìì…ë‹ˆë‹¤.");
 						break;
 					case '3':
-						System.out.println("´ç½ÅÀº 2000³â ÀÌÈÄ¿¡ Ãâ»ıÇÑ ³²ÀÚÀÔ´Ï´Ù.");
+						System.out.println("ë‹¹ì‹ ì€ 2000ë…„ ì´í›„ì— ì¶œìƒí•œ ë‚¨ìì…ë‹ˆë‹¤.");
 				}
-				break;	// ÀÌ break¹®À» »©¸ÔÁö ¾Êµµ·Ï ÁÖÀÇ
+				break;	// ì´ breakë¬¸ì„ ë¹¼ë¨¹ì§€ ì•Šë„ë¡ ì£¼ì˜
 			case '2': case '4':
 				switch(gender) {
 					case '2':
-						System.out.println("´ç½ÅÀº 2000³â ÀÌÀü¿¡ Ãâ»ıÇÑ ¿©ÀÚÀÔ´Ï´Ù.");
+						System.out.println("ë‹¹ì‹ ì€ 2000ë…„ ì´ì „ì— ì¶œìƒí•œ ì—¬ìì…ë‹ˆë‹¤.");
 						break;
 					case '4':
-						System.out.println("´ç½ÅÀº 2000³â ÀÌÈÄ¿¡ Ãâ»ıÇÑ ¿©ÀÚÀÔ´Ï´Ù.");
+						System.out.println("ë‹¹ì‹ ì€ 2000ë…„ ì´í›„ì— ì¶œìƒí•œ ì—¬ìì…ë‹ˆë‹¤.");
 						break;
 				}
 				break;
 			default:
-				System.out.println("À¯È¿ÇÏÁö ¾ÊÀº ÁÖ¹Îµî·Ï¹øÈ£ÀÔ´Ï´Ù.");
+				System.out.println("ìœ íš¨í•˜ì§€ ì•Šì€ ì£¼ë¯¼ë“±ë¡ë²ˆí˜¸ì…ë‹ˆë‹¤.");
 		}
-	} // mainÀÇ ³¡
+	} // mainì˜ ë
 }
 
-// switch¹®µµ ÁßÃ¸ÇÏ¿© ¾µ ¼ö ÀÖÀ¸³ª ÁßÃ¸ÇØ¼­ »ç¿ë½Ã break¹®À» »©¸Ô±â ½±´Ù.
+// switchë¬¸ë„ ì¤‘ì²©í•˜ì—¬ ì“¸ ìˆ˜ ìˆìœ¼ë‚˜ ì¤‘ì²©í•´ì„œ ì‚¬ìš©ì‹œ breakë¬¸ì„ ë¹¼ë¨¹ê¸° ì‰½ë‹¤.

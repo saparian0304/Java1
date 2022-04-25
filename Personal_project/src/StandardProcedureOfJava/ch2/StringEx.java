@@ -1,4 +1,4 @@
-package StandardProcedureOfJava.ch2;
+ï»¿package StandardProcedureOfJava.ch2;
 
 public class StringEx {
 
@@ -14,7 +14,7 @@ public class StringEx {
 		System.out.println("" + 7);
 		System.out.println("" + "");
 		System.out.println(7 + 7 + ""); // 14
-		System.out.println("" + 7 + 7); // 77 (µ¡¼À ¿¬»êÀº ¿ŞÂÊºÎÅÍ ¼ø¼­´ë·Î ÁøÇàµÇ±â¶§¹®ÀÓ
+		System.out.println("" + 7 + 7); // 77 (ë§ì…ˆ ì—°ì‚°ì€ ì™¼ìª½ë¶€í„° ìˆœì„œëŒ€ë¡œ ì§„í–‰ë˜ê¸°ë•Œë¬¸ì„
 
 	}
 

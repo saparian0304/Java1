@@ -1,4 +1,4 @@
-package StandardProcedureOfJava.ch3;
+﻿package StandardProcedureOfJava.ch3;
 
 public class ch3_OperatorEx17 {
 
@@ -11,7 +11,7 @@ public class ch3_OperatorEx17 {
 
 /*
  Math.round(pi*1000) / 1000.0;
- Math.round(3141.592*1000) / 1000.0;		// �ݿø��� �Ͼ
+ Math.round(3141.592*1000) / 1000.0;		// 반올림이 일어남
  3142 / 1000.0l;
  3.142;
  */

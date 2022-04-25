@@ -1,7 +1,7 @@
-package StandardProcedureOfJava.ch3;
+ï»¿package StandardProcedureOfJava.ch3;
 
 public class ch3_OperatorEx30 {
-	// 10Áø Á¤¼ö¸¦ 2Áø¼ö·Î º¯È¯ÇÏ´Â ¸Þ¼­µå
+	// 10ì§„ ì •ìˆ˜ë¥¼ 2ì§„ìˆ˜ë¡œ ë³€í™˜í•˜ëŠ” ë©”ì„œë“œ
 	static String toBinaryString(int x){
 		String zero = "00000000000000000000000000000000";
 		String tmp = zero + Integer.toBinaryString(x);
@@ -36,10 +36,10 @@ public class ch3_OperatorEx30 {
 
 
 /*
- x << nÀº x * 2^nÀÇ °á°ú¿Í °°´Ù.
- x >> nÀº x / 2^nÀÇ °á°ú¿Í °°´Ù.
+ x << nì€ x * 2^nì˜ ê²°ê³¼ì™€ ê°™ë‹¤.
+ x >> nì€ x / 2^nì˜ ê²°ê³¼ì™€ ê°™ë‹¤.
  
- ±×³É °ö¼À, ³ª´°¼ÀÀ» ÀÌ¿ëÇØµµ °á°ú´Â °°Áö¸¸ ÀÌ·± ½ÄÀÌ ÀÖ´Â ÀÌÀ¯ : ¼Óµµ°¡ ´õ ºü¸§
- ±×·¸Áö¸¸ °¡µ¶¼ºÀÌ ¶³¾îÁö±â ¶§¹®¿¡ ¼Óµµ°¡ Áß¿äÇÑ °æ¿ì¿¡¸¸ »ç¿ëÇÏ´Â °ÍÀÌ ÁÁÀ½
+ ê·¸ëƒ¥ ê³±ì…ˆ, ë‚˜ëˆ—ì…ˆì„ ì´ìš©í•´ë„ ê²°ê³¼ëŠ” ê°™ì§€ë§Œ ì´ëŸ° ì‹ì´ ìžˆëŠ” ì´ìœ  : ì†ë„ê°€ ë” ë¹ ë¦„
+ ê·¸ë ‡ì§€ë§Œ ê°€ë…ì„±ì´ ë–¨ì–´ì§€ê¸° ë•Œë¬¸ì— ì†ë„ê°€ ì¤‘ìš”í•œ ê²½ìš°ì—ë§Œ ì‚¬ìš©í•˜ëŠ” ê²ƒì´ ì¢‹ìŒ
 
 */

@@ -1,4 +1,4 @@
-package StandardProcedureOfJava.ch2;
+ï»¿package StandardProcedureOfJava.ch2;
 
 public class ch2_CastingEx2 {
 
@@ -21,7 +21,7 @@ public class ch2_CastingEx2 {
 		i = (int)b;
 		System.out.printf("[byte -> int] b=%d -> i=%d%n", b, i);
 		
-		System.out.println("i="+Integer.toBinaryString(i)); // 10ÁøÁ¤¼ö¸¦ 2Áø¼ö·Î º¯È¯ÇÏ´Â ¸Å¼­µå
+		System.out.println("i="+Integer.toBinaryString(i)); // 10ì§„ì •ìˆ˜ë¥¼ 2ì§„ìˆ˜ë¡œ ë³€í™˜í•˜ëŠ” ë§¤ì„œë“œ
 		
 	}
 
