@@ -1,6 +1,6 @@
 package org.opentutorials.iot;
 
-public class DimmingLights extends Lighting {
+public class DimmingLights extends Lighting1 {
 
 	double _bright;
 	public DimmingLights(String _name) {

@@ -2,9 +2,9 @@ package org.opentutorials.iot;
 
 import java.util.Random;
 
-public class Security implements OnOff{
+public class Security1 implements OnOff1{
 	String _id;
-	public Security(String id) {
+	public Security1(String id) {
 		this._id = id;
 	}
 	public boolean on() {

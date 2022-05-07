@@ -1,10 +1,10 @@
 package org.opentutorials.iot;
 
-public class Aircon implements OnOff{
+public class Aircon1 implements OnOff1{
 	String _id;
 	double _desiredTemperature = 26.0;
 
-	public Aircon(String id) {
+	public Aircon1(String id) {
 		this._id = id;
 	}
 

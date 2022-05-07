@@ -2,12 +2,12 @@ package org.opentutorials.iot;
 
 import java.awt.Color;
 
-public class ColorDimmingLights extends DimmingLights {
+public class ColorDimmingLights1 extends DimmingLights1 {
 
 	double _bright = 0;
 	Color _color;
 	
-	public ColorDimmingLights(String id) {
+	public ColorDimmingLights1(String id) {
 		super(id);
 		this._color = Color.white;
 	}

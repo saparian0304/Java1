@@ -1,8 +1,8 @@
 package org.opentutorials.iot;
 
-public class Elevator {
+public class Elevator1 {
 	String _id;
-	public Elevator(String id) {
+	public Elevator1(String id) {
 		this._id = id;
 	}
 

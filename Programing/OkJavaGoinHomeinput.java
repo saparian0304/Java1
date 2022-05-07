@@ -1,35 +1,35 @@
 import javax.swing.JOptionPane;
 
-import org.opentutorials.iot.DimmingLights;
-import org.opentutorials.iot.Elevator;
-import org.opentutorials.iot.Lighting;
-import org.opentutorials.iot.Security;
+import org.opentutorials.iot.DimmingLights1;
+import org.opentutorials.iot.Elevator1;
+import org.opentutorials.iot.Lighting1;
+import org.opentutorials.iot.Security1;
 
 
 public class OkJavaGoinHomeinput {
 	
-	// args : parameter, ¸Å°³º¯¼ö
+	// args : parameter, ï¿½Å°ï¿½ï¿½ï¿½ï¿½ï¿½
 	public static void main(String[] args) {
 		
 		String id = args[0];
 		String bright = args[1];
 		
 		// Elevator call
-		Elevator myElevator = new Elevator(id);
+		Elevator1 myElevator = new Elevator1(id);
 		myElevator.callForUp(1);
 		
 		// Security off
-		Security mySecurity = new Security(id);
+		Security1 mySecurity = new Security1(id);
 		mySecurity.off();
 		
 		// Light on 
-		Lighting hallLamp = new Lighting(id + " / Hall Lamp");
+		Lighting1 hallLamp = new Lighting1(id + " / Hall Lamp");
 		hallLamp.on();
 		
-		Lighting floorLamp = new Lighting(id+" / floor Lamp");
+		Lighting1 floorLamp = new Lighting1(id+" / floor Lamp");
 		floorLamp.on();
 		
-		DimmingLights moodLamp = new DimmingLights(id+" moodLamp");
+		DimmingLights1 moodLamp = new DimmingLights1(id+" moodLamp");
 		moodLamp.setBright(Double.parseDouble(bright));
 		moodLamp.on();
 
